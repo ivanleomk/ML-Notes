@@ -120,7 +120,12 @@ Also, if a categorical variable has a category in the test data set that wasn't 
 
 Decision Trees are used to classify items. Each node defines a set of conditions and based on the result of the evaluation, the sample is then further processed in the decision tree.
 
-When building a decision tree, we brute force across all of the different values until we find a good split between all of the samples within our dataset. This is 
+When building a decision tree, we brute force across all of the different values until we find a good split between all of the samples within our dataset. The goal of the decision tree here is to maximise the Gini index within the samples at that node recursively.
+
+It terminates once we've subdivided all the nodes and have the min number of nodes defined inside a sample
+
+## Random Forest
+
 
 
 
