@@ -122,9 +122,18 @@ Decision Trees are used to classify items. Each node defines a set of conditions
 
 When building a decision tree, we brute force across all of the different values until we find a good split between all of the samples within our dataset. The goal of the decision tree here is to maximise the Gini index within the samples at that node recursively.
 
-It terminates once we've subdivided all the nodes and have the min number of nodes defined inside a sample
+It terminates once we've subdivided all the nodes and have the min number of nodes defined inside a sample. 
 
+It's worthwhile here to note that decision trees tend to work well with categorical and discrete data. They also tend to grow very large and overfit on the training dataset unless we manage it well with depth parameters.
 ## Random Forest
+
+A way to get around the dimensionality issue with a decision tree is to use a random forest. In this case, we utilise a collection of multiple decision trees, each one trained with a random subset of the training dataset which is sampled with replacement from the original dataset.
+
+This breaks the correlation between the trees and increases the robustness of the classifier. In practice, each tree will randomly select $\sqrt{n}$ features assuming you have $n$ features in your dataset.
+
+## Support Vector Machines
+
+This aims to learn a hyperplane to separate groups of data points. It was popular for some time due to the fact that it's computationally efficient and has good performance. It's fallen behind to some degree nowadays.
 
 
 
