@@ -1,7 +1,7 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 0,
+  "autoSaveInterval": 20,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
@@ -28,7 +28,7 @@
   "gitDir": "",
   "showFileMenu": true,
   "lineAuthor": {
-    "show": false,
+    "show": true,
     "followMovement": "inactive",
     "authorDisplay": "initials",
     "showCommitHash": false,
@@ -48,7 +48,9 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 5
+    "gutterSpacingFallbackLength": 12,
+    "lastShownAuthorDisplay": "initials",
+    "lastShownDateTimeFormatOptions": "date"
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }

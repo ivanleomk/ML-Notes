@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8311b9e95a08b0",
+        "id": "36e8fe18a9a48d00",
         "type": "tabs",
         "children": [
           {
-            "id": "02d2e66dd10fbea2",
+            "id": "3894dc08bcf2ee29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Practical Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
-                "collapseAll": false,
+                "file": "Practical Deep Learning.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "Practical Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "Practical Deep Learning.md"
               }
             }
+          },
+          {
+            "id": "f1d4b7969913aac7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab7723e45d95b02f",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,11 +159,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "02d2e66dd10fbea2",
+  "active": "3894dc08bcf2ee29",
   "lastOpenFiles": [
+    "Working with Datasets.md",
+    "venv/bin/toco_from_protos",
+    "venv/bin/toco",
+    "venv/bin/tflite_convert",
+    "venv/bin/tf_upgrade_v2",
+    "venv/bin/saved_model_cli",
+    "venv/bin/import_pb_to_tensorboard",
+    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util_ops.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_util.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_name.cpython-312.pyc",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "venv/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md",
+    "venv/lib/python3.12/site-packages/Markdown-3.5.2.dist-info/LICENSE.md",
+    "code/fig/iris_visualisation.png",
+    "code/iris_visualisation.png",
+    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
+    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
+    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
+    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.png",
+    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect.svg",
+    "Practical Deep Learning.md",
+    "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "Index.md"
   ]
 }
