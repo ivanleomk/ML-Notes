@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -163,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,6 +180,10 @@
   },
   "active": "2cd40d9cf7f9d21c",
   "lastOpenFiles": [
+    "CleanShot 2024-02-29 at 03.57.16.png",
+    "CleanShot 2024-02-29 at 03.56.43.png",
+    "CleanShot 2024-02-29 at 03.56.16.png",
+    "CleanShot 2024-02-29 at 03.52.19.png",
     "Practical Deep Learning.md",
     "Matryoshka Embeddings.md",
     "Working with Datasets.md",
@@ -201,9 +207,6 @@
     "code/iris_visualisation.png",
     "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
     "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
-    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/Minduka_Present_Blue_Pack.png",
-    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.png",
-    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/images/zoom_to_rect.svg",
     "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "Index.md"
   ]
