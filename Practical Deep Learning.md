@@ -134,7 +134,3 @@ This breaks the correlation between the trees and increases the robustness of th
 ## Support Vector Machines
 
 This aims to learn a hyperplane to separate groups of data points. It was popular for some time due to the fact that it's computationally efficient and has good performance. It's fallen behind to some degree nowadays.
-
-
-
-

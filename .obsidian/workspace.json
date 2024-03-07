@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3894dc08bcf2ee29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practical Deep Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2cd40d9cf7f9d21c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matryoshka Embeddings.md",
+                "file": "Language Models Are Unsupervised Multitask Learners.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matryoshka Embeddings.md",
+                "file": "Language Models Are Unsupervised Multitask Learners.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matryoshka Embeddings.md",
+                "file": "Language Models Are Unsupervised Multitask Learners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matryoshka Embeddings.md"
+                "file": "Language Models Are Unsupervised Multitask Learners.md"
               }
             }
           },
@@ -180,13 +166,16 @@
   },
   "active": "2cd40d9cf7f9d21c",
   "lastOpenFiles": [
-    "CleanShot 2024-02-29 at 03.57.16.png",
-    "CleanShot 2024-02-29 at 03.56.43.png",
-    "CleanShot 2024-02-29 at 03.56.16.png",
-    "CleanShot 2024-02-29 at 03.52.19.png",
+    "Index.md",
+    "Language Models Are Unsupervised Multitask Learners.md",
     "Practical Deep Learning.md",
-    "Matryoshka Embeddings.md",
     "Working with Datasets.md",
+    "Matryoshka Embeddings.md",
+    "assets/CleanShot 2024-02-29 at 03.52.19.png",
+    "assets/CleanShot 2024-02-29 at 03.56.16.png",
+    "assets/CleanShot 2024-02-29 at 03.57.16.png",
+    "assets",
+    "assets/CleanShot 2024-02-29 at 03.56.43.png",
     "venv/bin/toco_from_protos",
     "venv/bin/toco",
     "venv/bin/tflite_convert",
@@ -196,7 +185,6 @@
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util_ops.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_util.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_name.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
@@ -206,8 +194,6 @@
     "code/fig/iris_visualisation.png",
     "code/iris_visualisation.png",
     "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/logo2.png",
-    "venv/lib/python3.12/site-packages/matplotlib/mpl-data/sample_data/grace_hopper.jpg",
-    "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "Index.md"
+    "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md"
   ]
 }
