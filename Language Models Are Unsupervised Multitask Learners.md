@@ -33,4 +33,45 @@ The model uses a BPE encoder to encode text input to be processed.
 They use a vanilla transformer architecture with the following modifications
 
 - Layer Normalisation moved to the input of each sub-block
-- 
+- Additional Layer Normalisation added to the final self-attention block at the end
+- Vocabulary expanded to 50,257 tokens
+- Context size increased from 512 to 1024 and a larger batchsize used
+
+| Parameters | Layers | Embedding Dimensionality |
+| ---------- | ------ | ------------------------ |
+| 117 M      | 12     | 768                      |
+| 345M       | 24     | 1024                     |
+| 762M       | 25     | 1280                     |
+| 1542M      | 48     | 1600                     |
+
+## Results
+
+GPT-2 improved the state of the art scores on 7 out of 8 datasets in a zero-shot setting. 
+
+### Children Books
+
+The Children's Book Test has two portions - one to examine the performance on named entities and another on common nouns. Models are made to predict which of 10 possible choices for an omitted word is correct.
+
+GPT-2 scored ~ 83-89% when SOTA was ~82% at the time for named entities and ~87-93% when SOTA was ~85.7 at the time
+
+### LAMBADA
+
+LAMBADA aims to get a model to predict the final word of a sentence given a prior context.
+
+```
+Context: They tuned, discussed for a moment, then struck up a lively jig. Everyone joined in, turning the courtyard into an even more chaotic scene, people now dancing in circles, swinging and spinning in circles, everyone making up their own dance steps. I felt my feet tapping, my body wanting to move. 
+Target sentence: Aside from writing, I ’ve always loved . 
+Target word: dancing
+```
+
+There were two main metrics measured here
+
+- Perplexity : Is the model confident about its predictions?
+- Accuracy : Does it get the word correct?
+
+> Perplexity is defined as the exponentiated average negative log-likelihood of a sequence. Remember that for 
+![[CleanShot 2024-03-08 at 01.11.09.png]]
+
+GPT-2 improves state of the art predictions
+
+- Perplexity from 99.8
