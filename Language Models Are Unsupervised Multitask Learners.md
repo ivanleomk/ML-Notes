@@ -43,6 +43,9 @@ They use a vanilla transformer architecture with the following modifications
 | 345M       | 24     | 1024                     |
 | 762M       | 25     | 1280                     |
 | 1542M      | 48     | 1600                     |
+This is also a decoder-only model which was popularised in the paper [Generating Wikipedia By Summarising Long Sequences](https://arxiv.org/pdf/1801.10198.pdf)
+
+![[Pasted image 20240308084840.png]]
 
 ## Results
 
