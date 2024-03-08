@@ -45,7 +45,19 @@ They use a vanilla transformer architecture with the following modifications
 | 1542M      | 48     | 1600                     |
 This is also a decoder-only model which was popularised in the paper [Generating Wikipedia By Summarising Long Sequences](https://arxiv.org/pdf/1801.10198.pdf)
 
-![[Pasted image 20240308084840.png]]
+![[CleanShot 2024-03-08 at 08.59.59.png]]
+This comes from the OpenAI Official [GPT-2 implementation](https://github.com/openai/gpt-2/blob/master/src/model.py)
+
+```python
+def block(x, scope, *, past, hparams):
+    with tf.variable_scope(scope):
+        nx = x.shape[-1].value
+        a, present = attn(norm(x, 'ln_1'), 'attn', nx, past=past, hparams=hparams)
+        x = x + a
+        m = mlp(norm(x, 'ln_2'), 'mlp', nx*4, hparams=hparams)
+        x = x + m
+        return x, present
+```
 
 ## Results
 
@@ -77,4 +89,47 @@ There were two main metrics measured here
 
 GPT-2 improves state of the art predictions
 
-- Perplexity from 99.8
+- Perplexity from 99.8 to 8.63
+- Accuracy from 59.23 to 63.24
+
+### CoQA ( Conversation Question and Answer)
+
+The Conversation Question Answering dataset (CoQA) Reddy et al. (2018) consists of documents from 7 different domains paired with natural language dialogues between a question asker and a question answerer about the document. 
+
+GPT-2 was conditioned on a document with greedy-decoding being used with the final token (A,B,C or D ) being used to determine the answer
+
+> Greedy decoding from GPT-2 when conditioned on a doc- ument, the history of the associated conversation, and a final token A:
+
+```
+Passage: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special".
+
+Question
+Q		Where did she live?
+A		in a barn || in a barn near a farm house, there lived a little white kitten
+A		in a barn ||  in a barn near a farm house, there lived a little white kitten named Cotton
+A		in a barn || in a barn
+A		in a barn near ||  in a barn near a farm house, there lived a little white kitten named Cotton.
+```
+
+### Summarisation 
+
+The CNN and Daily Mail dataset was used to test the ability of GPT-2 to perform summarisation. This was done by adding the text `TL;DR:` after the text and 100 tokens with top-k random sampling done thereafter.
+
+> GPT-2’s performance drops by 6.4 points on the aggregate metric when the task hint is removed which demonstrates the ability to invoke task specific behavior in a language model with natural language.
+
+
+They measured summaries using ROUGE
+
+ROUGE-1 measures the overlap of individual words (unigrams) between the generated and reference texts .
+ROUGE-2 assesses the overlap of two consecutive words (bigrams) .
+ROUGE-L evaluates the longest common subsequence (LCS) of words, which does not require the words to be in the same order

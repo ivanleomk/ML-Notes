@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,6 +165,7 @@
   },
   "active": "2cd40d9cf7f9d21c",
   "lastOpenFiles": [
+    "CleanShot 2024-03-08 at 08.59.59.png",
     "Pasted image 20240308085009.png",
     "Pasted image 20240308084840.png",
     "CleanShot 2024-03-08 at 01.11.09.png",
@@ -194,7 +194,6 @@
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "venv/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md",
     "venv/lib/python3.12/site-packages/Markdown-3.5.2.dist-info/LICENSE.md",
-    "code/fig/iris_visualisation.png",
     "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md"
   ]
 }
