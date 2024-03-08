@@ -130,6 +130,17 @@ The CNN and Daily Mail dataset was used to test the ability of GPT-2 to perform 
 
 They measured summaries using ROUGE
 
-ROUGE-1 measures the overlap of individual words (unigrams) between the generated and reference texts .
-ROUGE-2 assesses the overlap of two consecutive words (bigrams) .
-ROUGE-L evaluates the longest common subsequence (LCS) of words, which does not require the words to be in the same order
+- ROUGE-1 measures the overlap of individual words (unigrams) between the generated and reference texts .
+- ROUGE-2 assesses the overlap of two consecutive words (bigrams) .
+- ROUGE-L evaluates the longest common subsequence (LCS) of words, which does not require the words to be in the same order
+
+They then report the F1 Score which shows that GPT-2 requires task-specific prompting to be able to perform better. This can be seen by its 6.4 point drop in performance when the task hint is removed.
+
+![[CleanShot 2024-03-08 at 09.26.47.png]]
+
+### Translation
+
+They condition the model on a context of example pairs of the format `english_sentence=french_sentence` and then use a final prompt of <english_sentence> to elucidate the french sentence. 
+
+They used greedy decoding and the first generated sentence is taken as the translation. Translations were evaluated using the `BLEU` metric which takes the average precision of the 4 
+

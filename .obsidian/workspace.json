@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,15 +166,16 @@
   },
   "active": "2cd40d9cf7f9d21c",
   "lastOpenFiles": [
-    "CleanShot 2024-03-08 at 08.59.59.png",
-    "Pasted image 20240308085009.png",
-    "Pasted image 20240308084840.png",
-    "CleanShot 2024-03-08 at 01.11.09.png",
-    "Index.md",
-    "Language Models Are Unsupervised Multitask Learners.md",
-    "Practical Deep Learning.md",
-    "Working with Datasets.md",
     "Matryoshka Embeddings.md",
+    "Practical Deep Learning.md",
+    "Pasted image 20240308084840.png",
+    "Pasted image 20240308085009.png",
+    "Index.md",
+    "assets/CleanShot 2024-03-08 at 09.26.47.png",
+    "Language Models Are Unsupervised Multitask Learners.md",
+    "assets/CleanShot 2024-03-08 at 08.59.59.png",
+    "assets/CleanShot 2024-03-08 at 01.11.09.png",
+    "Working with Datasets.md",
     "assets/CleanShot 2024-02-29 at 03.52.19.png",
     "assets/CleanShot 2024-02-29 at 03.56.16.png",
     "assets/CleanShot 2024-02-29 at 03.57.16.png",
@@ -189,8 +191,6 @@
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_util.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "venv/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md",
     "venv/lib/python3.12/site-packages/Markdown-3.5.2.dist-info/LICENSE.md",
