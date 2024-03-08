@@ -142,5 +142,14 @@ They then report the F1 Score which shows that GPT-2 requires task-specific prom
 
 They condition the model on a context of example pairs of the format `english_sentence=french_sentence` and then use a final prompt of <english_sentence> to elucidate the french sentence. 
 
-They used greedy decoding and the first generated sentence is taken as the translation. Translations were evaluated using the `BLEU` metric which takes the average precision of the 4 
+They used greedy decoding and the first generated sentence is taken as the translation. Translations were evaluated using the `BLEU` metric which takes the geometric mean of the clipped precision of 1-gram, 2-gram, 3-gram and 4-grams ( [HF Explanation](https://www.youtube.com/watch?v=M05L1DhFqcw) )
+
+French text comprised only 10MB in the 40GB Web Text dataset so this was surprising to the authors.
+
+### Question and Answer
+
+GPT-2's prompt is seeded with example question and answer pairs which help the model infer the short answer style of the dataset. 
+
+- GPT-2 answers 5.3 times more questions correctly than previous SOTA non IR model and gets ~4.1% of questions correct
+- GPT-2 cannot beat the QA systems which combine the information retrieval which are able to get between 30-50% correct answers
 
