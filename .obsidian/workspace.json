@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Models Are Unsupervised Multitask Learners.md",
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5853dc4f52c617f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A Comprehensive Overview of Large Language Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Models Are Unsupervised Multitask Learners.md",
+                "file": "A Comprehensive Overview of Large Language Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Models Are Unsupervised Multitask Learners.md",
+                "file": "A Comprehensive Overview of Large Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Models Are Unsupervised Multitask Learners.md"
+                "file": "A Comprehensive Overview of Large Language Models.md"
               }
             }
           },
@@ -164,15 +178,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2cd40d9cf7f9d21c",
+  "active": "5853dc4f52c617f1",
   "lastOpenFiles": [
+    "Index.md",
+    "A Comprehensive Overview of Large Language Models.md",
+    "Language Models Are Unsupervised Multitask Learners.md",
     "Matryoshka Embeddings.md",
     "Practical Deep Learning.md",
     "Pasted image 20240308084840.png",
     "Pasted image 20240308085009.png",
-    "Index.md",
     "assets/CleanShot 2024-03-08 at 09.26.47.png",
-    "Language Models Are Unsupervised Multitask Learners.md",
     "assets/CleanShot 2024-03-08 at 08.59.59.png",
     "assets/CleanShot 2024-03-08 at 01.11.09.png",
     "Working with Datasets.md",
