@@ -11,6 +11,7 @@ There are a few key components to understand about LLMs
 3. **Attention** : This is a mathematical operation that assigns weights to input tokens based on relevance. There are a few different kinds of attention that we work with - self-attention, cross-attention and flash attention.
 4. **Activation Functions** : These are non-linear functions which helps introduce non-linearity to our model. This in turn helps us to model more complex relations
 5. **Layer Normalisation** : This is used to ensure that the input in a single example has a mean of 0 and a variance of 1. We typically use this in order to prevent potentially exploding gradients. Layer normalisation has been shown to provide training stability in LLMs with better results observed from performing the layer norm before the attention calculation rather than afterwards.
+6. **Data Pre-processing**: Training data is extremely important when considering the final result of training a LLM. Often times, we'll use a few methods such as quality filtering, data deduplication and privacy reduction to ensure we have unique chunks and no sensitive data within the training data.
 
 ### Attention
 
@@ -26,4 +27,9 @@ There are three main types to know
 There are a few different training approaches to working with large LLMs
 
 - [[Tensor Parallelism]] : We shard a tensor computation across devices
-- []
+- [[Data Parallelism]]: We replicate the model on multiple devices where data gets divided across devices. We then synchronise the weights across all devices.
+- [[Pipeline Parallelism]] : We have model layers sharded across different devices
+- [[Model Parallelism]] : We shard tensor computations and batch processing across multiple devices
+- [[Optimiser Parallelism]]: We shard calculation of optimiser optimisation across multiple devices
+
+## 
