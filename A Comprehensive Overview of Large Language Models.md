@@ -60,3 +60,7 @@ This is normally done in a few stages
 
 ### Working with LLMs
 
+Some general useful methods when working with LLMs is to utilise a few prompting techniques such as 
+
+- [[Chain Of Thought]]: Get the LLM to generate some reasoning before it's response
+- [[Self-Consistency]]: Get the LLM
