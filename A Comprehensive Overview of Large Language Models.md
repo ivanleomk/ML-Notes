@@ -55,7 +55,7 @@ This is normally done in a few stages
 	1. **Instruction-Tuning** : To enable a model to respond to use queries effectively using instruction and input/output pairs
 	2. **Transfer Learning**: We fine-tune a model with task-specific data (Eg. BERT for sentiment analysis )
 	3. **Alignment Tuning**: The goal is to get a model to be helpful, harmless and honest. This is normally done through a reinforcement learning pipeline like RLHF or using DPO/PPO/KTO
-3. **Continued Pre-Training**: This is when we get the LLM to try and learn new information. A big problem here is that of [[Catastrophic Forgetting]] where a model discards old information it has learnt 
+3. **Continued Pre-Training**: This is when we get the LLM to try and learn new information. A big problem here is that of [[Catastrophic Forgetting]] where a model discards old information it has learnt to be able to accomadate the new information.
 
 #### Creating Instruction Tuning Datasets
 
@@ -69,7 +69,7 @@ We have a few different methods to generate the data
 - [[Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks]]: Using an initial seed of 175 tasks, 1 instruction and 1 sample per task to iteratively generate new instructions and instances using GPT-3.
 - [[WizardLM: Empowering Large Language Models to Follow Complex Instructions]]: This introduces a new method called Evol-Instruct that rewrites instruction data and tasks into more complex instructions and tasks.
 
-Many other notable models ended up distilling from GPT-4 such as Alpacca, Vicuna and LLama GPT-4. 
+Many other notable models ended up distilling from GPT-4 such as Alpacca, Vicuna and LLama GPT-4. Typically what we want is high quality information as we see in [[Less Is More For Alignment]]( LIMA ) where they used ~1000 carefully chosen examples to fine tune a model that was able to match GPT-4.
 
 ### Alignment
 
