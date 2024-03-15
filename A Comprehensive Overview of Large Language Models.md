@@ -39,7 +39,7 @@ There are a few different training approaches to working with large LLMs
 - [[Model Parallelism]] : We shard tensor computations and batch processing across multiple devices
 - [[Optimiser Parallelism]]: We shard calculation of optimiser optimisation across multiple devices
 
-## Tasks
+### Tasks
 
 We can then use these architectures to train our models to perform specific tasks. These tend to be the rough buckets
 
@@ -55,14 +55,32 @@ This is normally done in a few stages
 	1. **Instruction-Tuning** : To enable a model to respond to use queries effectively using instruction and input/output pairs
 	2. **Transfer Learning**: We fine-tune a model with task-specific data (Eg. BERT for sentiment analysis )
 	3. **Alignment Tuning**: The goal is to get a model to be helpful, harmless and honest. This is normally done through a reinforcement learning pipeline like RLHF or using DPO/PPO/KTO
+3. **Continued Pre-Training**: This is when we get the LLM to try and learn new information. A big problem here is that of [[Catastrophic Forgetting]] where a model discards old information it has learnt 
 
 #### Creating Instruction Tuning Datasets
 
 There are a few ways to do the creation of datasets
 
-1. **Manually writing the datasets**: We hand-write these prompts and 
+1. **Manually writing the datasets**: We hand-write these prompts and then we give them to the model
+2. **LLM-Generated** : 
 
+We have a few different methods to generate the data
+- [[Self-Instruct: Aligning Language Models with Self-Generated Instructions]] where we use LLMs to generate data. 
+- [[Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks]]: Using an initial seed of 175 tasks, 1 instruction and 1 sample per task to iteratively generate new instructions and instances using GPT-3.
+- [[WizardLM: Empowering Large Language Models to Follow Complex Instructions]]: This introduces a new method called Evol-Instruct that rewrites instruction data and tasks into more complex instructions and tasks.
 
+Many other notable models ended up distilling from GPT-4 such as Alpacca, Vicuna and LLama GPT-4. 
+
+### Alignment
+
+Aligning LLMs with human preferences is challenging. There have been these few approaches
+
+1. **RLHF** : Where we train a reward model in order to rank responses. This is done by using preference data sampled from annotators so the reward model learns how to assign the right ranking/weight to the responses.
+2. **DPO and its variants**: Instead of aligning the model using a reward model, we directly train a model on the preferred responses to maximise the likelihood of preferred against un-preferred responses, with per-sample importance weight.
+3. **Synthethic Feedback**: Examples of this include RLHAIF where we generate preference data using a recursive generation of text from the model itself.
+4. **Using prompts** : We can use prompts to generate desirable responses
+
+Typically once a model is trained, a team then tries to probe it for its harmful capabilities. They typically try to get it to exhibit harmful behaviour, hallucinate or leak personal information
 
 ## Working with LLMs
 
