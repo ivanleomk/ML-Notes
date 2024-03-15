@@ -32,4 +32,13 @@ There are a few different training approaches to working with large LLMs
 - [[Model Parallelism]] : We shard tensor computations and batch processing across multiple devices
 - [[Optimiser Parallelism]]: We shard calculation of optimiser optimisation across multiple devices
 
-## 
+## Architectures
+
+Typically when we look at LLMs, we have three different configurations
+
+1. **Encoder-Decoder**: This processes inputs through the encoder and passes the intermediate representations through the decoder to generate output. 
+2. **Causal Decoder**: This doesn't have an encoder and generates output using the decoder only
+3. **Prefix Decoder**: The prefix decoder modifies the masking mechanism of causal decoders to allow bidirectional attention on prefix tokens and unidirectional attention on generated tokens.
+
+The choice of an architecture affects the ultimate pre-training objective that we end up using with the model.
+
