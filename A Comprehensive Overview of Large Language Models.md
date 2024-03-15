@@ -56,6 +56,14 @@ This is normally done in a few stages
 	2. **Transfer Learning**: We fine-tune a model with task-specific data (Eg. BERT for sentiment analysis )
 	3. **Alignment Tuning**: The goal is to get a model to be helpful, harmless and honest. This is normally done through a reinforcement learning pipeline like RLHF or using DPO/PPO/KTO
 
+#### Creating Instruction Tuning Datasets
+
+There are a few ways to do the creation of datasets
+
+1. **Manually writing the datasets**: We hand-write these prompts and 
+
+
+
 ## Working with LLMs
 
 Some general useful methods when working with LLMs is to utilise a few prompting techniques such as 
@@ -77,3 +85,7 @@ Some general useful methods when working with LLMs is to utilise a few prompting
 - [[Scaling Language Models: Methods, Analysis & Insights from Training Gopher]]: Deepmind trains a new model called Gopher and scales parameter count up to 300B. They demonstrate that relative encodings allow models for longer sequences that those on which it was trained.
   
 - [[Training Compute-Optimal Large Language Model]]: In this paper, researchers try to find the optimal allocation of fixed compute resources to tokens to model parameters. They find that we should instead double the number of training tokens for every doubling of tokens
+
+- [[Llama 2: Open Foundation and Fine-Tuned Chat Models]] : This paper introduces the LLama-2 model. This model has 40% more training data with a larger context length too
+  
+- [[Evaluating Large Language Models Trained on Code]]: This paper introduces the Codex model which is a GPT-model that powers co-pilot. Codex generates versions of problems with repetitive sampling that produces a working solution for more than 77\% of problems
