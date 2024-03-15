@@ -6,7 +6,7 @@ Many of these models appear to have emergent abilities that are a function of th
 
 There are a few key components to understand about LLMs
 
-1. **Tokenisation** : How text content is parsed into small units called tokens. This is done by using a common algorithm such as [wordpiece](Wordpiece), [BPE](Byte Pair Encoding) or unigramLM. 
+1. **Tokenisation** : How text content is parsed into small units called tokens. This is done by using a common algorithm such as [wordpiece](Wordpiece), [[Byte Pair Encoding]] or unigramLM. 
 2. **Positional Encodings**: Attention is a positional invariant operation but we want to capture positional information of tokens. Therefore we compute a transformation on each token. We can use algorithms such as [[RoPE]] and [[Alibi]] in order to extend the context of a model beyond that of what was seen during training. 
 3. **Attention** : This is a mathematical operation that assigns weights to input tokens based on relevance. There are a few different kinds of attention that we work with - self-attention, cross-attention and flash attention.
 4. **Activation Functions** : These are non-linear functions which helps introduce non-linearity to our model. This in turn helps us to model more complex relations
@@ -22,6 +22,15 @@ There are three main types to know
 3. **Sparse Attention**: This is used to iteratively calculate the attention in sliding windows for speed gains
 4. **Flash Attention**: Better attention algorithm to optimise the memory reads and writes
 
+
+## Architectures
+
+Typically when we look at LLMs, we have three different configurations
+
+1. **Encoder-Decoder**: This processes inputs through the encoder and passes the intermediate representations through the decoder to generate output. 
+2. **Causal Decoder**: This doesn't have an encoder and generates output using the decoder only
+3. **Prefix Decoder**: The prefix decoder modifies the masking mechanism of causal decoders to allow bidirectional attention on prefix tokens and unidirectional attention on generated tokens.
+
 ### Training LLMs
 
 There are a few different training approaches to working with large LLMs
@@ -32,13 +41,22 @@ There are a few different training approaches to working with large LLMs
 - [[Model Parallelism]] : We shard tensor computations and batch processing across multiple devices
 - [[Optimiser Parallelism]]: We shard calculation of optimiser optimisation across multiple devices
 
-## Architectures
+#### Tasks
 
-Typically when we look at LLMs, we have three different configurations
+We can then use these architectures to train our models to perform specific tasks. These tend to be the rough buckets
 
-1. **Encoder-Decoder**: This processes inputs through the encoder and passes the intermediate representations through the decoder to generate output. 
-2. **Causal Decoder**: This doesn't have an encoder and generates output using the decoder only
-3. **Prefix Decoder**: The prefix decoder modifies the masking mechanism of causal decoders to allow bidirectional attention on prefix tokens and unidirectional attention on generated tokens.
+1. **Full Language Modelling** : A model is asked to predict future tokens given previous tokens.
+2. **Prefix Language Modelling**: Prefix is chosen randomly and the remaining targets are used to calculate loss
+3. **Masked Language Modelling**: One or more contiguous tokens are masked in the input and the model is asked to predict masked tokens given the past and future content
 
-The choice of an architecture affects the ultimate pre-training objective that we end up using with the model.
+#### Training Stages
+
+This is normally done in a few stages 
+1. **Pre-Training**: The model is trained in a self-supervised manner on a large corpus to predict the next tokens given the input.
+2. **Fine-Tuning**: There are a few different means of fine-tuning
+	1. **Instruction-Tuning** : To enable a model to respond to use queries effectively using instruction and input/output pairs
+	2. **Transfer Learning**: We fine-tune a model with task-specific data (Eg. BERT for sentiment analysis )
+	3. **Alignment Tuning**: The goal is to get a model to be helpful, harmless and honest. This is normally done through a reinforcement learning pipeline like RLHF or using DPO/PPO/KTO
+
+### Working with LLMs
 

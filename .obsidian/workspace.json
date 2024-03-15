@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "A Comprehensive Overview of Large Language Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5853dc4f52c617f1",
+            "id": "115a5536a27e0db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A Comprehensive Overview of Large Language Models.md",
+                "file": "Byte Pair Encoding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,11 +177,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5853dc4f52c617f1",
+  "active": "2cd40d9cf7f9d21c",
   "lastOpenFiles": [
-    "Index.md",
-    "A Comprehensive Overview of Large Language Models.md",
     "Language Models Are Unsupervised Multitask Learners.md",
+    "Index.md",
+    "Byte Pair Encoding.md",
+    "Byte.md",
+    "A Comprehensive Overview of Large Language Models.md",
     "Matryoshka Embeddings.md",
     "Practical Deep Learning.md",
     "Pasted image 20240308084840.png",
