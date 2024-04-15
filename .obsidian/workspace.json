@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "f42464b33da5c82a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RLHF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "115a5536a27e0db3",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "RLHF.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "RLHF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Large Language Models.md"
+                "file": "RLHF.md"
               }
             }
           },
@@ -190,11 +202,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e48e9f7b700347ae",
+  "active": "f42464b33da5c82a",
   "lastOpenFiles": [
+    "Large Language Models.md",
+    "RLHF.md",
     "Pasted image 20240415202001.png",
     "Index.md",
-    "Large Language Models.md",
     "A Guide To Hyperparameters.md",
     "A Comprehensive Overview of Large Language Models.md",
     "Byte Pair Encoding.md",
@@ -223,7 +236,6 @@
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util_ops.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util.cpython-312.pyc",
     "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_util.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "venv/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md",
     "venv/lib/python3.12/site-packages/Markdown-3.5.2.dist-info/LICENSE.md",
