@@ -2,7 +2,7 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 # Resources
 
-[[A Guide to Hyper-parameters]] : These are some notes that I took about training hyper-parameters when fine-tuning models
+[[A Guide To Hyperparameters]] : These are some notes that I took about training hyper-parameters when fine-tuning models
 
 ## Papers
 

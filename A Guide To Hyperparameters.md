@@ -7,7 +7,10 @@ There are a few important hyper-parameters that we need to configure when workin
 1. Batch Size
 2. Sequence Length
 3. Epochs and Steps
-4. Learning
+4. Learning Rate
+5. Schedulers
+6. Regularisation and Optimisers
+7. Float16 vs bFloat16
 
 ## Batch Size
 
@@ -58,4 +61,10 @@ A stronger value of regularisation imposes a stronger penalty on large weights a
 
 Typically we'd use something like AdamW to be able to optimise our model's parameters. AdamW is the most commonly used algorithm and decouples the update from the weight decay term. This helps to increase the regularisation and prevent it from getting mixed up with gradient updates
 
+
+## BFloat16 vs Float16
+
+The key difference between the two lies in how they allocate bits to the exponent and fraction, with bfloat16's design allowing for broader range handling without significantly affecting computational accuracy, thus optimizing it for high-speed and memory-efficient deep learning operations.
+
+bfloat16 is better but is only supported by GPUs from the Ampere generation or more recent. If your GPU is compatible, use bfloat16. If not, use float16, but if you have some overflow issues (e.g., the loss falls to 0.0 or NaN), you might have to use float32.
 
