@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5525654467cb1027",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "115a5536a27e0db3",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A Comprehensive Overview of Large Language Models.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A Comprehensive Overview of Large Language Models.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A Comprehensive Overview of Large Language Models.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -177,13 +189,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2cd40d9cf7f9d21c",
+  "active": "5525654467cb1027",
   "lastOpenFiles": [
+    "A Comprehensive Overview of Large Language Models.md",
+    "Untitled.md",
     "Language Models Are Unsupervised Multitask Learners.md",
     "Index.md",
     "Byte Pair Encoding.md",
     "Byte.md",
-    "A Comprehensive Overview of Large Language Models.md",
     "Matryoshka Embeddings.md",
     "Practical Deep Learning.md",
     "Pasted image 20240308084840.png",
