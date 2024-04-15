@@ -20,14 +20,14 @@
             }
           },
           {
-            "id": "5525654467cb1027",
+            "id": "e48e9f7b700347ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "A Guide to Hyper-parameters.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "A Guide to Hyper-parameters.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "A Guide to Hyper-parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "A Guide to Hyper-parameters.md"
               }
             }
           },
@@ -189,13 +190,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5525654467cb1027",
+  "active": "e48e9f7b700347ae",
   "lastOpenFiles": [
+    "Index.md",
+    "A Guide to Hyper-parameters.md",
     "A Comprehensive Overview of Large Language Models.md",
+    "Byte Pair Encoding.md",
+    "Working with Datasets.md",
     "Untitled.md",
     "Language Models Are Unsupervised Multitask Learners.md",
-    "Index.md",
-    "Byte Pair Encoding.md",
     "Byte.md",
     "Matryoshka Embeddings.md",
     "Practical Deep Learning.md",
@@ -204,7 +207,6 @@
     "assets/CleanShot 2024-03-08 at 09.26.47.png",
     "assets/CleanShot 2024-03-08 at 08.59.59.png",
     "assets/CleanShot 2024-03-08 at 01.11.09.png",
-    "Working with Datasets.md",
     "assets/CleanShot 2024-02-29 at 03.52.19.png",
     "assets/CleanShot 2024-02-29 at 03.56.16.png",
     "assets/CleanShot 2024-02-29 at 03.57.16.png",
