@@ -4,6 +4,8 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [[A Guide To Hyperparameters]] : These are some notes that I took about training hyper-parameters when fine-tuning models
 
+[[Large Language Models]]
+
 ## Papers
 
 [[Matryoshka Embeddings]]: Training embedding models that are able to work at a variety of different embedding dimensions
