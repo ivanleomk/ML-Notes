@@ -4,7 +4,7 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [[A Guide To Hyperparameters]] : These are some notes that I took about training hyper-parameters when fine-tuning models
 
-[[Large Language Models]]
+[[Large Language Models]] : A quick introduction to what they are
 
 ## Papers
 
