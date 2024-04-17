@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e82002f84ece1b29",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/CleanShot 2024-03-08 at 01.11.09.png"
               }
             }
           },
@@ -56,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -123,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "assets/CleanShot 2024-03-08 at 01.11.09.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "assets/CleanShot 2024-03-08 at 01.11.09.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Large Language Models.md"
+                "file": "assets/CleanShot 2024-03-08 at 01.11.09.png"
               }
             }
           },
@@ -202,31 +211,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f42464b33da5c82a",
+  "active": "e82002f84ece1b29",
   "lastOpenFiles": [
+    "assets/Pasted image 20240415202001.png",
+    "assets/Pasted image 20240417224249.png",
+    "assets/CleanShot 2024-03-08 at 09.26.47.png",
+    "assets/CleanShot 2024-03-08 at 08.59.59.png",
+    "assets/CleanShot 2024-02-29 at 03.52.19.png",
+    "Recommendation Systems.md",
     "Index.md",
-    "RLHF.md",
     "Large Language Models.md",
-    "Pasted image 20240415202001.png",
+    "Language Models Are Unsupervised Multitask Learners.md",
+    "RLHF.md",
     "A Guide To Hyperparameters.md",
     "A Comprehensive Overview of Large Language Models.md",
     "Byte Pair Encoding.md",
     "Working with Datasets.md",
     "Untitled.md",
-    "Language Models Are Unsupervised Multitask Learners.md",
     "Byte.md",
     "Matryoshka Embeddings.md",
     "Practical Deep Learning.md",
     "Pasted image 20240308084840.png",
     "Pasted image 20240308085009.png",
-    "assets/CleanShot 2024-03-08 at 09.26.47.png",
-    "assets/CleanShot 2024-03-08 at 08.59.59.png",
     "assets/CleanShot 2024-03-08 at 01.11.09.png",
-    "assets/CleanShot 2024-02-29 at 03.52.19.png",
     "assets/CleanShot 2024-02-29 at 03.56.16.png",
     "assets/CleanShot 2024-02-29 at 03.57.16.png",
     "assets",
-    "assets/CleanShot 2024-02-29 at 03.56.43.png",
     "venv/bin/toco_from_protos",
     "venv/bin/toco",
     "venv/bin/tflite_convert",
