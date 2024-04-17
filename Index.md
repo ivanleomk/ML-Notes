@@ -1,4 +1,4 @@
-These are my existing ML notes which are a record of all the things I've learnt. Figured this would help me to get more experience working with RAG systems.
+These are my existing ML notes which are a record of all the things I've learnt. Figured this would help me to get more experience working with RAG systems. 
 
 # Resources
 
@@ -7,6 +7,8 @@ These are my existing ML notes which are a record of all the things I've learnt.
 [[Large Language Models]] : A quick introduction to what is a Large Language Model
 
 [[Recommendation Systems]] : A quick dive into what a recommendation system is
+
+[[Machine Learning]] : What is this all about?
 
 ## Papers
 

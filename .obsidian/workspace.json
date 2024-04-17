@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f9eaacaeb73e9ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "Machine Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Large Language Models.md"
+                "file": "Machine Learning.md"
               }
             }
           },
@@ -165,16 +178,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0bd129d6f803b477",
+  "active": "1f9eaacaeb73e9ad",
   "lastOpenFiles": [
     "Index.md",
+    "Machine Learning.md",
+    "Large Language Models.md",
     "Matryoshka Embeddings.md",
     "Recommendation Systems.md",
     "A Comprehensive Overview of Large Language Models.md",
     "A Guide To Hyperparameters.md",
     "Byte Pair Encoding.md",
     "Language Models Are Unsupervised Multitask Learners.md",
-    "Large Language Models.md",
     "assets/Pasted image 20240417224503.png",
     "assets/CleanShot 2024-03-08 at 01.11.09.png",
     "assets/Pasted image 20240415202001.png",
