@@ -10,6 +10,8 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [[Machine Learning]] : What is this all about?
 
+[[Pytorch]]
+
 ## Papers
 
 [[Matryoshka Embeddings]]: Training embedding models that are able to work at a variety of different embedding dimensions
