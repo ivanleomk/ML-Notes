@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0bd129d6f803b477",
+            "id": "1f9eaacaeb73e9ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4f269911d5e88d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Improving Language Understanding by Generative Pre-Training.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d342a28b50833acf",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Improving Language Understanding by Generative Pre-Training.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Improving Language Understanding by Generative Pre-Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Improving Language Understanding by Generative Pre-Training.md"
               }
             }
           },
@@ -177,12 +165,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cbd1af1cd217115f",
+  "active": "1f9eaacaeb73e9ad",
   "lastOpenFiles": [
-    "Pytorch.md",
     "README.md",
-    "Machine Learning.md",
+    "Improving Language Understanding by Generative Pre-Training.md",
     "Large Language Models.md",
+    "Machine Learning.md",
+    "Pytorch.md",
+    "Index.md",
     "Matryoshka Embeddings.md",
     "Recommendation Systems.md",
     "A Comprehensive Overview of Large Language Models.md",

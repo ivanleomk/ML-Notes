@@ -10,7 +10,7 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [[Machine Learning]] : What is this all about?
 
-[[Pytorch]]
+[[Pytorch]] : A brief introduction to pytorch
 
 ## Papers
 
@@ -19,3 +19,5 @@ These are my existing ML notes which are a record of all the things I've learnt.
 [[Language Models Are Unsupervised Multitask Learners]] : How GPT-2 challenged a traditional paradigm of pre-train -> fine-tune on task with its auto-regressive prompting ability
 
 [[A Comprehensive Overview of Large Language Models]] : A walkthrough of the key ideas and concepts around large language models
+
+[[Improving Language Understanding by Generative Pre-Training]] : How GPT-1 helped to bring forth a huge revolution in the NLP space by showing efficient transfer learning abilities
