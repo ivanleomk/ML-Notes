@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "dc780a1b0d3ee72a",
+    "id": "15ef42fa73561a88",
     "type": "split",
     "children": [
       {
-        "id": "11c7dd135fc64692",
+        "id": "14de718fc685e895",
         "type": "tabs",
         "children": [
           {
-            "id": "1f9eaacaeb73e9ad",
+            "id": "c8f19e1b80b98865",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Improving Language Understanding by Generative Pre-Training.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2b3f1952e0d3eca7",
+    "id": "5763965e23923263",
     "type": "split",
     "children": [
       {
-        "id": "28fa5dd73dae4465",
+        "id": "b6aad65852694030",
         "type": "tabs",
         "children": [
           {
-            "id": "cbd1af1cd217115f",
+            "id": "22cc4a5520f8507d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "30c619fbb34ca9d5",
+            "id": "69dbe061971d0da1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "097aadd2dd280d7b",
+            "id": "9b03a7f9cef74bc4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,25 +65,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "d342a28b50833acf",
+    "id": "28b7713da57d93ca",
     "type": "split",
     "children": [
       {
-        "id": "7aef9975846447a2",
+        "id": "3a043cd6caf57751",
         "type": "tabs",
         "children": [
           {
-            "id": "f5244cf5e49b8ae3",
+            "id": "02e1bb101051880a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Improving Language Understanding by Generative Pre-Training.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -98,19 +92,18 @@
             }
           },
           {
-            "id": "7ae7ec307631ac4a",
+            "id": "2bff401daad35f22",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Improving Language Understanding by Generative Pre-Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8861312124576244",
+            "id": "ed466080fee55e77",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,33 +114,14 @@
             }
           },
           {
-            "id": "0b41cd3e836b3027",
+            "id": "808edcb9c3778996",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Improving Language Understanding by Generative Pre-Training.md"
-              }
-            }
-          },
-          {
-            "id": "f1d4b7969913aac7",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ab7723e45d95b02f",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,57 +130,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1f9eaacaeb73e9ad",
-  "lastOpenFiles": [
-    "README.md",
-    "Improving Language Understanding by Generative Pre-Training.md",
-    "Large Language Models.md",
-    "Machine Learning.md",
-    "Pytorch.md",
-    "Index.md",
-    "Matryoshka Embeddings.md",
-    "Recommendation Systems.md",
-    "A Comprehensive Overview of Large Language Models.md",
-    "A Guide To Hyperparameters.md",
-    "Byte Pair Encoding.md",
-    "Language Models Are Unsupervised Multitask Learners.md",
-    "assets/Pasted image 20240417224503.png",
-    "assets/CleanShot 2024-03-08 at 01.11.09.png",
-    "assets/Pasted image 20240415202001.png",
-    "assets/Pasted image 20240417224249.png",
-    "assets/CleanShot 2024-03-08 at 09.26.47.png",
-    "assets/CleanShot 2024-03-08 at 08.59.59.png",
-    "assets/CleanShot 2024-02-29 at 03.52.19.png",
-    "RLHF.md",
-    "Working with Datasets.md",
-    "Untitled.md",
-    "Byte.md",
-    "Practical Deep Learning.md",
-    "Pasted image 20240308084840.png",
-    "Pasted image 20240308085009.png",
-    "assets/CleanShot 2024-02-29 at 03.56.16.png",
-    "assets",
-    "venv/bin/toco_from_protos",
-    "venv/bin/toco",
-    "venv/bin/tflite_convert",
-    "venv/bin/tf_upgrade_v2",
-    "venv/bin/saved_model_cli",
-    "venv/bin/import_pb_to_tensorboard",
-    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util_ops.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_util.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/tensorflow/dtensor/python/tests/__pycache__/test_backend_util.cpython-312.pyc",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
-    "venv/lib/python3.12/site-packages/idna-3.6.dist-info/LICENSE.md",
-    "venv/lib/python3.12/site-packages/Markdown-3.5.2.dist-info/LICENSE.md",
-    "venv/lib/python3.12/site-packages/numpy/random/LICENSE.md"
-  ]
+  "active": "c8f19e1b80b98865",
+  "lastOpenFiles": []
 }

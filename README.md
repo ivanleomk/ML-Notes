@@ -1,4 +1,4 @@
-These are my existing ML notes which are a record of all the things I've learnt. Figured this would help me to get more experience working with RAG systems. 
+These are my existing ML notes which are a record of all the things I've learnt. Figured this would help me to get more experience working with RAG systems.
 
 # Resources
 
@@ -10,7 +10,7 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [[Machine Learning]] : What is this all about?
 
-[[Pytorch]] : A brief introduction to pytorch
+[Pytorch](Pytorch.md) : A guide to using auto differentiation libraries in Machine Learning
 
 ## Papers
 
