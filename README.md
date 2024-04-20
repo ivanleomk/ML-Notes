@@ -1,5 +1,7 @@
 These are my existing ML notes which are a record of all the things I've learnt. Figured this would help me to get more experience working with RAG systems.
 
+[Elicit Machine Learning Guide](Elicit%20Machine%20Learning%20Guide.md): My current progress on the Elicit Machine Learning Reading List
+
 # Resources
 
 [[A Guide To Hyperparameters]] : These are some notes that I took about training hyper-parameters when fine-tuning models
@@ -7,8 +9,6 @@ These are my existing ML notes which are a record of all the things I've learnt.
 [[Large Language Models]] : A quick introduction to what is a Large Language Model
 
 [[Recommendation Systems]] : A quick dive into what a recommendation system is
-
-[[Machine Learning]] : What is this all about?
 
 [Pytorch](Pytorch.md) : A guide to using auto differentiation libraries in Machine Learning
 

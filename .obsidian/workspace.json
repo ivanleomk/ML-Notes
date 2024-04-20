@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "14de718fc685e895",
+        "id": "940c740020c83324",
         "type": "tabs",
         "children": [
           {
-            "id": "c8f19e1b80b98865",
+            "id": "23b6c07927e589bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "The Spelled Out Intro to Neural Networks and Back Propagation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "The Spelled Out Intro to Neural Networks and Back Propagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "The Spelled Out Intro to Neural Networks and Back Propagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "The Spelled Out Intro to Neural Networks and Back Propagation.md"
+              }
             }
           }
         ]
@@ -139,6 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8f19e1b80b98865",
-  "lastOpenFiles": []
+  "active": "23b6c07927e589bc",
+  "lastOpenFiles": [
+    "Elicit Machine Learning Guide.md",
+    "The Spelled Out Intro to Neural Networks and Back Propagation.md",
+    "But What is a Neural Network?.md",
+    "README.md",
+    "Elicit.md",
+    "A Short Introduction To Machine Learning.md"
+  ]
 }
