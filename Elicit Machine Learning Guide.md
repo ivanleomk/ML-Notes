@@ -7,7 +7,8 @@
 - [x] [[The Spelled Out Intro to Neural Networks and Back Propagation]] 
 - [x] [[An Introduction to Deep Reinforcement Learning]]
 - [x] [[What is a GPT - A visual intro to transformers]]
-- [ ] [[60 Minute Blitz into Pytorch]]
+- [x] [[60 Minute Blitz into Pytorch]]
+- [ ] [[The Illustrated GPT-2 - Visualising Transformer Language Models]]
 
 
 

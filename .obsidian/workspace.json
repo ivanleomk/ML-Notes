@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60 Minute Blitz into Pytorch.md",
+                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "8193843df8dac566",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60 Minute Blitz into Pytorch.md",
+                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60 Minute Blitz into Pytorch.md",
+                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60 Minute Blitz into Pytorch.md"
+                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md"
               }
             }
           }
@@ -150,9 +158,10 @@
   "active": "8801cda933115721",
   "lastOpenFiles": [
     "Elicit Machine Learning Guide.md",
+    "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
+    "README.md",
     "60 Minute Blitz into Pytorch.md",
     "What is a GPT - A visual intro to transformers.md",
-    "README.md",
     "An Introduction to Deep Reinforcement Learning.md",
     "assets/Screenshot 2024-04-20 at 10.21.39 PM.png",
     "The Spelled Out Intro to Neural Networks and Back Propagation.md",
