@@ -75,4 +75,5 @@ Since we have both a weightage of each individual token w.r.t each token for eac
 
 ### Multi Headed Attention
 
-Multi Headed Attention involves breaking up the original embedding vector into multiple separate chunks. 
+Multi Headed Attention involves breaking up the original embedding vector into multiple separate chunks. This allows us to encode/extract more complex semantic meaning into the text.
+

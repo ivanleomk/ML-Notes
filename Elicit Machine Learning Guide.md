@@ -6,11 +6,12 @@
 - [x] Gradient Descent, How neural networks learn
 - [x] [[The Spelled Out Intro to Neural Networks and Back Propagation]] 
 - [x] [[An Introduction to Deep Reinforcement Learning]]
-- [ ] [[What is a GPT - A visual intro to transformers]]
+- [x] [[What is a GPT - A visual intro to transformers]]
+- [ ] [[60 Minute Blitz into Pytorch]]
 
 
 
 
 Other interesting resources
 - https://huggingface.co/learn/deep-rl-course/unit0/introduction
-- 
+- An introduction to Language Modelling ( https://www.youtube.com/watch?v=1il-s4mgNdI&list=PLyPKqVSnetmELS_I3FRfXZRKAxV5HB9fc )
