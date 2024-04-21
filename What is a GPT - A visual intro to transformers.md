@@ -50,3 +50,29 @@ Typically we might have a temperature component which can be added in to help bi
 $$
 \frac{e^{\frac{x_i}{T}}}{\sum_{j=0}^n{e^{\frac{x_j}{T}}}}
 $$
+
+## Attention
+
+### Basic Idea
+
+> Source : https://www.youtube.com/watch?v=eMlx5fFNoYc&t=1s
+
+We start by associating each token with a high dimensional vector which encodes it's semantic meaning. Attention aims to solve the problem of embeddings lacking context of their surrounding words/phrases.
+
+Eg. Tower vs Eiffel Tower vs Miniature Eiffel Tower
+
+Typically in a transformer we'd have what's known as [[Multi Headed Attention]] which processes chunks of the input in parallel. Attention relies on a few different matrices
+
+1. Query : A questions
+2. Key : Answering the queries
+3. Value: A transformation of the embedding matrix 
+
+These are learnt from the data itself and help map our big embedding vector for each token into a smaller embedding space. We then take the dot product between the query and key to see how similar they are, the more similar these are, the more we say they **attend to** each other.
+
+We end up normalising the input relative to each other in order to get a weighted distribution of each token importance w.r.t each individual token. This helps each token weight the representation of other tokens against itself. Because we need to do this pairwise comparison, the attention computation scales quadratically.
+
+Since we have both a weightage of each individual token w.r.t each token for each row and a new rescaled semantic vector for each token, we can then compute a new representation for each token by computing a weighted sum of the rescaled semantic vectors for every other token before it.
+
+### Multi Headed Attention
+
+Multi Headed Attention involves breaking up the original embedding vector into multiple separate chunks. 
