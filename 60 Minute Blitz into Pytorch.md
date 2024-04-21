@@ -1,0 +1,12 @@
+- Torch uses tensors which are composed together to form a computational graph
+- This is used when we want to do back propagation on the final loss and result. Often times, Pytorch does this well because there are many custom kernels which help to execute more efficient back propagation passes.
+- The steps used to train a Neural Network are going to be
+	- Calculate Forward Pass
+	- Set Gradient Buffer to 0
+	- Back Propagate the results
+	- Update the gradients using an optimizer
+	- Repeat for n number of epochs
+- When defining a custom network, make sure to define it using the `nn.module` class and define a `forward` method. Once this is done, then pytorch will automatically be able to apply the back propagation method
+- When we train using the model itself, we have the choice between running it on the GPU vs CPU
+	- GPU is faster since we can parallelize operations
+	- Note that if we use the GPU vs CPU then we need to make sure to send the input and labels over to the GPU
