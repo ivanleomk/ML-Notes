@@ -36,3 +36,17 @@ The similarity of embeddings is typically computed using a cosine similarity cal
 
 Embeddings don't have any information about the position that a word has w.r.t it's other components. Therefore, we have positional embeddings that help provide this information through either a learned or fixed transformation that is unique to each individual position.
 
+## Softmax
+
+A softmax function takes in a real number vector and from there, it normalises all the values in the vector so that they all add up to 1. This helps us treat the entire vector as a single probability distribution. 
+
+We do so by applying the formula to each value in the vector with $n$ values at the $i$-th position.
+
+$$
+\frac{e^{x_i}}{\sum_{j=0}^n{e^{x_j}}}
+$$
+Typically we might have a temperature component which can be added in to help bias / increase the probabilities of the smaller values in the softmax.
+
+$$
+\frac{e^{\frac{x_i}{T}}}{\sum_{j=0}^n{e^{\frac{x_j}{T}}}}
+$$
