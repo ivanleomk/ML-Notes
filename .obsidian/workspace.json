@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elicit Machine Learning Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b320eee489d35556",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "An Introduction to Deep Reinforcement Learning.md",
+                "file": "What is a GPT - A visual intro to transformers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "An Introduction to Deep Reinforcement Learning.md",
+                "file": "What is a GPT - A visual intro to transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "An Introduction to Deep Reinforcement Learning.md",
+                "file": "What is a GPT - A visual intro to transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "An Introduction to Deep Reinforcement Learning.md"
+                "file": "What is a GPT - A visual intro to transformers.md"
               }
             }
           }
@@ -160,11 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b320eee489d35556",
+  "active": "23b6c07927e589bc",
   "lastOpenFiles": [
-    "assets/Screenshot 2024-04-20 at 10.21.39 PM.png",
     "Elicit Machine Learning Guide.md",
+    "What is a GPT - A visual intro to transformers.md",
     "An Introduction to Deep Reinforcement Learning.md",
+    "assets/Screenshot 2024-04-20 at 10.21.39 PM.png",
     "README.md",
     "The Spelled Out Intro to Neural Networks and Back Propagation.md",
     "But What is a Neural Network?.md",

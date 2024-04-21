@@ -5,4 +5,12 @@
 - [x] But what is a Neural Network?
 - [x] Gradient Descent, How neural networks learn
 - [x] [[The Spelled Out Intro to Neural Networks and Back Propagation]] 
-- [ ] [[An Introduction to Deep Reinforcement Learning]]
+- [x] [[An Introduction to Deep Reinforcement Learning]]
+- [ ] [[What is a GPT - A visual intro to transformers]]
+
+
+
+
+Other interesting resources
+- https://huggingface.co/learn/deep-rl-course/unit0/introduction
+- 
