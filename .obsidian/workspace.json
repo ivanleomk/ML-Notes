@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "The Illustrated Transformer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb41f28de42ce060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "The Transformer Explained.md",
                 "mode": "source",
                 "source": false
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Transformer Explained.md",
+                "file": "The Illustrated Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Transformer Explained.md",
+                "file": "The Illustrated Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Transformer Explained.md"
+                "file": "The Illustrated Transformer.md"
               }
             }
           }
@@ -158,7 +170,9 @@
   "active": "8801cda933115721",
   "lastOpenFiles": [
     "Elicit Machine Learning Guide.md",
+    "The Illustrated Transformer.md",
     "The Transformer Explained.md",
+    "Attention in RNNs.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
     "README.md",
     "60 Minute Blitz into Pytorch.md",
