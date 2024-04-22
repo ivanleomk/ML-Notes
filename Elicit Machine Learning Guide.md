@@ -9,6 +9,8 @@
 - [x] [[What is a GPT - A visual intro to transformers]]
 - [x] [[60 Minute Blitz into Pytorch]]
 - [ ] [[The Illustrated GPT-2 - Visualising Transformer Language Models]]
+- [ ] [[The Transformer Explained]]
+
 
 
 
