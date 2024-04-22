@@ -9,8 +9,8 @@
 - [x] [[What is a GPT - A visual intro to transformers]]
 - [x] [[60 Minute Blitz into Pytorch]]
 - [ ] [[The Illustrated GPT-2 - Visualising Transformer Language Models]]
-- [ ] [[The Transformer Explained]]
-- [ ] [[The Illustrated Transformer]]
+- [x] [[The Transformer Explained]]
+- [x] [[The Illustrated Transformer]]
 - [x] [[Attention in RNNs]]
 
 
@@ -22,3 +22,4 @@ Other interesting resources
 - https://huggingface.co/learn/deep-rl-course/unit0/introduction
 - An introduction to Language Modelling ( https://www.youtube.com/watch?v=1il-s4mgNdI&list=PLyPKqVSnetmELS_I3FRfXZRKAxV5HB9fc )
 - Tensorflow's Guide to building Machine Translation RNNs ( https://github.com/tensorflow/nmt )
+- https://transformersbook.com
