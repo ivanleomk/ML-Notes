@@ -1,4 +1,6 @@
 
+# Introduction
+
 LLMs are a new form of language models which have a tremendous ability to understand, generate and interpret human language. They are incredibly useful because they are able to perform many tasks without having handcrafted rules or specialised datasets.
 
 Fundamentally, these are models that are trained to understand, generate and respond to human-like text. They are considered large because their parameters tend to scale up to the hundreds of billions. They are trained in a self-supervised manner by being made to predict the next token.
@@ -11,3 +13,6 @@ They utilise a [[Transformer Architecture]] which allows them to pay selective a
 This process varies from model to model. Some popular algorithms are 
 
 1. [[RLHF]]
+
+# Text Processing for LLMs
+

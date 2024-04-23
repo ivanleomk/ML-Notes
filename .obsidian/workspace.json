@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7cc04244b3cddf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Large Language Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
+                "file": "Large Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
+                "file": "Large Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Illustrated GPT-2 - Visualising Transformer Language Models.md"
+                "file": "Large Language Models.md"
               }
             }
           }
@@ -179,14 +192,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8801cda933115721",
+  "active": "a7cc04244b3cddf4",
   "lastOpenFiles": [
-    "Elicit Machine Learning Guide.md",
+    "README.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
+    "Elicit Machine Learning Guide.md",
     "The Illustrated Transformer.md",
     "The Transformer Explained.md",
     "Attention in RNNs.md",
-    "README.md",
     "60 Minute Blitz into Pytorch.md",
     "What is a GPT - A visual intro to transformers.md",
     "An Introduction to Deep Reinforcement Learning.md",
