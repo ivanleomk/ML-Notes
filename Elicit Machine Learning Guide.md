@@ -8,10 +8,11 @@
 - [x] [[An Introduction to Deep Reinforcement Learning]]
 - [x] [[What is a GPT - A visual intro to transformers]]
 - [x] [[60 Minute Blitz into Pytorch]]
-- [ ] [[The Illustrated GPT-2 - Visualising Transformer Language Models]]
+- [x] [[The Illustrated GPT-2 - Visualising Transformer Language Models]]
 - [x] [[The Transformer Explained]]
 - [x] [[The Illustrated Transformer]]
 - [x] [[Attention in RNNs]]
+- [ ] [[The Annotated Transformer]]
 
 
 

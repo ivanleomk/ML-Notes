@@ -30,4 +30,3 @@ This was originally done in an encoder-decoder architecture setup where we had a
 However, this made it difficult for the RNN to selectively gate information when it found the need to refer to prior state. Therefore this resulted in the introduction of [[Bahdanau Attention]] which gave a RNN decoder network access to the encoder state for each token. It would then combine these hidden states into a single representation.
 
 This mechanism was subsequently adopted in the transformer architecture that allows us to selectively weight token representations according to their relevance to a specific token. [[Attention Is All You Need]] introduced the concept of [[Scaled Dot Attention Product]] which scales the qk matrix by the root of the embedding dimensionality in order to avoid small gradients.
-

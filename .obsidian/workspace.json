@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "Elicit Machine Learning Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1985bfffb2edd32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Annotated Transformer.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "The Annotated Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large Language Models.md",
+                "file": "The Annotated Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Large Language Models.md"
+                "file": "The Annotated Transformer.md"
               }
             }
           }
@@ -192,15 +204,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7cc04244b3cddf4",
+  "active": "b1985bfffb2edd32",
   "lastOpenFiles": [
+    "Elicit Machine Learning Guide.md",
+    "The Annotated Transformer.md",
+    "Large Language Models.md",
     "assets/Screenshot 2024-04-26 at 2.02.54 PM.png",
     "assets/Screenshot 2024-04-26 at 1.58.51 PM.png",
     "README.md",
     "Byte Pair Encoding.md",
-    "Large Language Models.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
-    "Elicit Machine Learning Guide.md",
     "The Illustrated Transformer.md",
     "The Transformer Explained.md",
     "Attention in RNNs.md",
