@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Byte Pair Encoding.md",
+                "file": "Large Language Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Byte Pair Encoding.md",
+                "file": "Large Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Byte Pair Encoding.md",
+                "file": "Large Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Byte Pair Encoding.md"
+                "file": "Large Language Models.md"
               }
             }
           }
@@ -194,7 +194,10 @@
   },
   "active": "a7cc04244b3cddf4",
   "lastOpenFiles": [
+    "assets/Screenshot 2024-04-26 at 2.02.54 PM.png",
+    "assets/Screenshot 2024-04-26 at 1.58.51 PM.png",
     "README.md",
+    "Byte Pair Encoding.md",
     "Large Language Models.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
     "Elicit Machine Learning Guide.md",

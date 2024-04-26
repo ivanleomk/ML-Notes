@@ -16,3 +16,17 @@ This process varies from model to model. Some popular algorithms are
 
 # Text Processing for LLMs
 
+Large Language Models cannot understand text. Therefore, for large models like ChatGPT, any text that they work with is always going to be tokenised using a known tokenisation scheme.
+
+Common examples are [Byte Pair Encoding](Byte%20Pair%20Encoding.md) and [[Sentence Piece]]. It's important here to note that the language model never sees the text, it only sees the token Ids.![image | 400](assets/Screenshot%202024-04-26%20at%201.58.51%20PM.png)
+
+# Attention
+
+Translation is difficult because the sentence cannot be translated word by word. As a result, for each chunk of words/portion of the sentence, there's a need to be able to refer to the entire context of the sentence.
+
+![](assets/Screenshot%202024-04-26%20at%202.02.54%20PM.png)
+This was originally done in an encoder-decoder architecture setup where we had a RNN encode information iteratively with each token into its hidden state before it passed this hidden state into a decoder.
+
+However, this made it difficult for the RNN to selectively gate information when it found the need to refer to prior state. Therefore this resulted in the introduction of [[Bahdanau Attention]] which gave a RNN decoder network access to the encoder state for each token. It would then combine these hidden states into a single representation.
+
+This mechanism was subsequently adopted in the transformer architecture that allows us to selectively weight token representations according to their rele
