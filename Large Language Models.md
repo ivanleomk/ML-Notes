@@ -12,7 +12,7 @@ They utilise a [[Transformer Architecture]] which allows them to pay selective a
 
 This process varies from model to model. Some popular algorithms are 
 
-1. [[RLHF]]
+1. [RLHF](/RLHF.md)
 
 # Text Processing for LLMs
 
