@@ -1,0 +1,4 @@
+- Conv Nets have an increase in the number of operations required to relate signals from two arbitrary input or output positions that grow in the distance between positions.
+- Transformers reduce this to a constant fixed number of operations that tend to grow quadratically due to the attention calculation.
+	- Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence
+	- 
