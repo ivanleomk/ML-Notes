@@ -42,3 +42,10 @@ class ImageDataset(Dataset):
 ```
 
 In this example above, we're doing transformations on an image given a file path and then returning the transformed image and the label for each item.
+
+When choosing our loss function we need to make sure we get the right tool for the job. Some things to consider are that
+- Logistic Functions go from 0 -> 1 and try to identify a threshold for a binary classification job
+- Softmax allows us to convert a real number valued vector to a set of probabilities ( by normalising every value so that it essentially sums to 1. )
+- When choosing between a logistic function and a tanh, tanh might be a better choice by virtue of it's larger range. This means that it has a larger space for values to flow.
+
+![](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
