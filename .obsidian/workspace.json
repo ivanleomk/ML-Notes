@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Annotated Transformer.md",
+                "file": "Machine Learning with PyTorch and Scikit-Learn.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Annotated Transformer.md",
+                "file": "Machine Learning with PyTorch and Scikit-Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Annotated Transformer.md",
+                "file": "Machine Learning with PyTorch and Scikit-Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Annotated Transformer.md"
+                "file": "Machine Learning with PyTorch and Scikit-Learn.md"
               }
             }
           }
@@ -206,12 +206,14 @@
   },
   "active": "b1985bfffb2edd32",
   "lastOpenFiles": [
-    "Elicit Machine Learning Guide.md",
+    "README.md",
+    "Machine Learning with PyTorch and Scikit-Learn.md",
+    "Pytorch.md",
     "The Annotated Transformer.md",
+    "Elicit Machine Learning Guide.md",
     "Large Language Models.md",
     "assets/Screenshot 2024-04-26 at 2.02.54 PM.png",
     "assets/Screenshot 2024-04-26 at 1.58.51 PM.png",
-    "README.md",
     "Byte Pair Encoding.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
     "The Illustrated Transformer.md",

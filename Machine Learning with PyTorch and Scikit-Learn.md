@@ -1,0 +1,6 @@
+- There are three types of machine learning algorithms
+	- Supervised Learning : Labels + Data => Goal is to learn a mapping between data and the actual target labels. Examples of tasks that require supervised learning are classification and regression
+	- Unsupervised Learning : No Labels + Data => 
+	- Reinforcement Learning : Reward System + Environment => Goal is to learn a policy
+- Classification
+	- This can be binary class or multi-class classification 
