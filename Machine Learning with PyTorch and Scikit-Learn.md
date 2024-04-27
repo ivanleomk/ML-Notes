@@ -12,3 +12,32 @@
 ![|400](assets/Screenshot%202024-04-27%20at%209.15.45%20PM.png)
 When we work with raw data, typically we need to extract meaningful features. A feature in this case is just a measurement that is useful to our final prediction.
 
+## Training Classification Algorithms
+
+The simplest example is simply 
+
+$$
+W = \begin{bmatrix}  
+w_1\\  
+w_2 \\
+w_3 \\
+\dots \\
+w_n
+\end{bmatrix} \space X = \begin{bmatrix}  
+x_1\\  
+x_2 \\
+x_3 \\
+\dots \\
+x_n
+\end{bmatrix}
+$$
+We can then take 
+
+$$
+\sigma(WX^T) = \begin{cases} 1 &\text{if  $WX^T \geq \theta$} \\0 & \text{otherwise} \end{cases}
+$$
+We can alternatively utilise a simple bias term so that this instead becomes
+
+$$
+\sigma(WX^T + \theta) = \begin{cases} 1 &\text{if  $WX^T \geq 0$} \\0 & \text{otherwise} \end{cases}
+$$
