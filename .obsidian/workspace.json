@@ -42,38 +42,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e72bef8ad99cf45a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Illustrated Transformer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb41f28de42ce060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Transformer Explained.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8193843df8dac566",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
         "currentTab": 2
@@ -206,9 +174,11 @@
   },
   "active": "b1985bfffb2edd32",
   "lastOpenFiles": [
+    "The Illustrated Transformer.md",
+    "The Transformer Explained.md",
+    "Machine Learning with PyTorch and Scikit-Learn.md",
     "assets/Screenshot 2024-04-27 at 9.15.45 PM.png",
     "README.md",
-    "Machine Learning with PyTorch and Scikit-Learn.md",
     "Pytorch.md",
     "The Annotated Transformer.md",
     "Elicit Machine Learning Guide.md",
@@ -217,8 +187,6 @@
     "assets/Screenshot 2024-04-26 at 1.58.51 PM.png",
     "Byte Pair Encoding.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
-    "The Illustrated Transformer.md",
-    "The Transformer Explained.md",
     "Attention in RNNs.md",
     "60 Minute Blitz into Pytorch.md",
     "What is a GPT - A visual intro to transformers.md",
