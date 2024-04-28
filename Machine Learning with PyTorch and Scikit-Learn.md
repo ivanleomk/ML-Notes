@@ -55,4 +55,12 @@ When choosing our loss function we need to make sure we get the right tool for t
 
 ![|300](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
 
-## 
+# Pytorch Lightning
+
+Pytorch Lightning is an extension built on top of Pytorch that allows us to be able to train models at a distributed scale. It provides more methods such as 
+
+- `training_step` : It defines a single forward pass during training which is executed to process each individual batch
+- `validation_step`: This is executed on a single batch of data during the validation step
+- `test_step`: This is executed on a single batch of data during the test stage
+
+It also provides easy utilities such as `torchmetrics` which allows us to compute metrics such as Accuracy, Recall, Precision etc.
