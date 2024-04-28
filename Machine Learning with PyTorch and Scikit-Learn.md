@@ -1,5 +1,7 @@
 ## Pytorch
 
+Pytorch relies on building out a computation graph to derive relationships betwen tensors from the input all the way to the output.
+
 ### Dataloaders
 
 We can use Data Loaders in order to easily access and batch data. There are two ways to do this
