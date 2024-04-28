@@ -4,9 +4,7 @@ Pytorch relies on building out a computation graph to derive relationships betwe
 
 ### Modules
 
-In cases where we want to define a new layer that isn't supported by PyTorch, we can define a new class with the `nn.Module` class. 
-
-
+In cases where we want to define a new layer that isn't supported by PyTorch, we can define a new class with the `nn.Module` class. This helps us to potentially implement/work with layers that are customized to our needs.
 ### DataLoaders
 
 We can use DataLoaders in order to easily access and batch data. There are two ways to do this
@@ -56,3 +54,5 @@ When choosing our loss function we need to make sure we get the right tool for t
 - When choosing between a logistic function and a tanh, tanh might be a better choice by virtue of it's larger range. This means that it has a larger space for values to flow.
 
 ![|300](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
+
+## 
