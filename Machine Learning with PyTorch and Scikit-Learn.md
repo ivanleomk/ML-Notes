@@ -1,10 +1,15 @@
 ## Pytorch
 
-Pytorch relies on building out a computation graph to derive relationships betwen tensors from the input all the way to the output.
+Pytorch relies on building out a computation graph to derive relationships betwen tensors from the input all the way to the output. It's useful for helping us to work with multiple devices easily and compute the gradients of the loss with respect to the NN weights.
 
-### Dataloaders
+### Modules
 
-We can use Data Loaders in order to easily access and batch data. There are two ways to do this
+In cases where we want to define a new layer that isn't supported by PyTorch, we can define a new class with the `nn.Module` class. 
+
+
+### DataLoaders
+
+We can use DataLoaders in order to easily access and batch data. There are two ways to do this
 
 1. Pass a generator over to Pytorch's `Dataloader`
 2. Define a custom `Dataset` object and then pass it over to a `DataLoader`
@@ -50,4 +55,4 @@ When choosing our loss function we need to make sure we get the right tool for t
 - Softmax allows us to convert a real number valued vector to a set of probabilities ( by normalising every value so that it essentially sums to 1. )
 - When choosing between a logistic function and a tanh, tanh might be a better choice by virtue of it's larger range. This means that it has a larger space for values to flow.
 
-![](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
+![|300](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
