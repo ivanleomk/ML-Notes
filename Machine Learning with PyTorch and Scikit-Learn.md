@@ -112,6 +112,8 @@ We typically use an activation function after each layer so that our network can
 - ReLU is a popular choice to be used in-between different layers
 - If you're noticing the gradients vanishing, then work towards using a leaky ReLU
 
+
+
 # Pytorch Lightning
 
 Pytorch Lightning is an extension built on top of Pytorch that allows us to be able to train models at a distributed scale. It provides more methods such as 
