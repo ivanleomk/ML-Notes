@@ -5,7 +5,7 @@ Pytorch relies on building out a computation graph to derive relationships betwe
 ### Modules
 
 In cases where we want to define a new layer that isn't supported by PyTorch, we can define a new class with the `nn.Module` class. This helps us to potentially implement/work with layers that are customized to our needs.
-### DataLoaders
+## DataLoaders
 
 We can use DataLoaders in order to easily access and batch data. There are two ways to do this
 
@@ -54,7 +54,59 @@ When choosing our loss function we need to make sure we get the right tool for t
 - When choosing between a logistic function and a tanh, tanh might be a better choice by virtue of it's larger range. This means that it has a larger space for values to flow.
 
 ![|300](assets/Screenshot%202024-04-28%20at%2012.43.51%20AM.png)
+### Transformations
 
+Transformations help us to transform our input data into a form that works well with our model. In order to use Transformations, we can either code up our own or use inbuilt ones provided by Pytorch
+
+```python
+class ToTensor:
+    def __call__(self,sample):
+        inputs, targets = sample
+        return torch.from_numpy(inputs), torch.from_numpy(targets)
+
+class MulTransform:
+    def __init__(self,factor):
+        self.factor = factor
+    
+    def __call__(self,sample):
+        inputs,target = sample
+        inputs *= self.factor
+        return inputs,target
+
+composed = torchvision.transforms.Compose([
+    ToTensor(),
+    MulTransform(2)
+])
+```
+
+We can see here how easily it is for us to scale up our transforms so that they are applied to inputs. We can then in turn use them in a `Dataset` object by doing
+
+```python
+class WineDataset(Dataset):
+
+    def __init__(self, transform=None):
+        xy = np.loadtxt('./data/wine/wine.csv', delimiter=',', dtype=np.float32, skiprows=1)
+        self.n_samples = xy.shape[0]
+
+        # note that we do not convert to tensor here
+        self.x_data = xy[:, 1:]
+        self.y_data = xy[:, [0]]
+
+        self.transform = transform
+
+    def __getitem__(self, index):
+        sample = self.x_data[index], self.y_data[index]
+
+        if self.transform:
+            sample = self.transform(sample)
+
+        return sample
+
+    def __len__(self):
+        return self.n_samples
+```
+
+## A
 # Pytorch Lightning
 
 Pytorch Lightning is an extension built on top of Pytorch that allows us to be able to train models at a distributed scale. It provides more methods such as 
