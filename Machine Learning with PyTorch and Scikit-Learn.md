@@ -1,8 +1,7 @@
-## Pytorch
 
 Pytorch relies on building out a computation graph to derive relationships betwen tensors from the input all the way to the output. It's useful for helping us to work with multiple devices easily and compute the gradients of the loss with respect to the NN weights.
 
-### Modules
+## Modules
 
 In cases where we want to define a new layer that isn't supported by PyTorch, we can define a new class with the `nn.Module` class. This helps us to potentially implement/work with layers that are customized to our needs.
 ## DataLoaders
@@ -106,7 +105,13 @@ class WineDataset(Dataset):
         return self.n_samples
 ```
 
-## A
+## Activation Functions
+
+We typically use an activation function after each layer so that our network can approximate more complex tasks.
+
+- ReLU is a popular choice to be used in-between different layers
+- If you're noticing the gradients vanishing, then work towards using a leaky ReLU
+
 # Pytorch Lightning
 
 Pytorch Lightning is an extension built on top of Pytorch that allows us to be able to train models at a distributed scale. It provides more methods such as 
