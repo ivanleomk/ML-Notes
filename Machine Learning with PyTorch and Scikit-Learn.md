@@ -112,6 +112,10 @@ We typically use an activation function after each layer so that our network can
 - ReLU is a popular choice to be used in-between different layers
 - If you're noticing the gradients vanishing, then work towards using a leaky ReLU
 
+## Transfer Learning
+
+We can also use pytorch to train models so that they're able to be used for other purposes.
+
 
 
 # Pytorch Lightning
