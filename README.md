@@ -16,6 +16,7 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 [Machine Learning with PyTorch and Scikit-Learn](/Machine%20Learning%20with%20PyTorch%20and%20Scikit-Learn.md) : A guide on how to work with Pytorch for machine learning
 
+[[RNN]] : A simplified implementation of RNNs in Pytorch
 ## Papers
 
 [Matryoshka Embeddings](/Matryoshka%20Embeddings.md): Training embedding models that are able to work at a variety of different embedding dimensions
