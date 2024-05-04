@@ -8,11 +8,11 @@ There are three core components of recommendation systems: The collector, ranker
 - Server: Take the ordered subset and ensure that the necessary data schema is satisfied and return the requested number of recommendations. 
 
 
-| Method            | Collector                                   | Ranker                    | Server                               |
-| ----------------- | ------------------------------------------- | ------------------------- | ------------------------------------ |
-| Random Choice     | A random id is generated                    | This is a no-op           | We then return a chosen item or none |
-| Most Popular Item | Get the popularity for each individual item | Rank by sorting on values | Return either a list of items or non |
-|                   |                                             |                           |                                      |
+| Method                  | Collector                                   | Ranker             | Server                                                                                           |
+| ----------------------- | ------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------ |
+| Random Choice           | A random id is generated                    | This is a no-op    | We then return a chosen item or none                                                             |
+| Most Popular Item       | Get the popularity for each individual item | Rank by popularity | Return either a list of items or non                                                             |
+| MPI with k Armed Bandit | Get individual item popularities            | Rank by popularity | Set a threshold and sample to see if we exceed threshold. If we do, return a randomly chosen arm |
 
 ## Collaborative Filtering
 
@@ -50,3 +50,14 @@ There are a few important things to consider when looking at user ranking data
  
 2. Popularity : The most popular items attract the most attention and widen the gap with other items significantly. 
 
+Therefore, it's necessary to factor in specific implementations so that we can serve up good recommendations
+
+### Multi armed Bandits
+
+The basis strategy for an explore-exploit scheme is to take not only the outcome-maximising recommendation but also a collection of alternative variants and randomly determine which to use as a response.
+
+In short, the agent has a prior assumption about what is the greatest expected reward but explores other alternatives with some frequency so that its prior is constantly being updated.
+
+# Content-Based Filtering
+
+We can instead utilise vector representations of indiv
