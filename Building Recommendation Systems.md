@@ -25,7 +25,7 @@ The key thing to consider here is whether we prioritise user or item similarity.
 - Item Similarity : We find an item that a user liked and try to find similar items
 - User Similarity : We find another user that is similar to our our user and try to find similar users
 
-### Data
+### Ratings
 
 What sort of data should we be collecting? There are a few different types of data that we can collect. Ultimately rich and verbose logging is one of the most important ways to improve a recommendation system.
 
@@ -36,6 +36,17 @@ Examples of soft ratings include
 - Page Loads : If a user has seen an option, then they have the opportunity to click it. We need to account for the entire population of choices that the user was exposed to
 - Page Views : If a user mouses over a specific section to try and discover more information about an item OR identify more items that are similar to it, this is a signal that we should definitely discover/log.
 - Clicks : Clicks are an explicit expression of interest and are often times included in the KPI of the recommendation team itself. Modern systems have included the ordering of these clicks into the systems as [[Sequential Recomendations]]
-- Add to Bag : This is an extremely strong indicator of interest and is ofte
+- Add to Bag : This is an **extremely strong indicator of interest** and is often correlated with purchasing. 
 
-Ideally we want to use a mix of these two ratings because they each give different forms of signals
+Ideally we want to use a mix of these two ratings because they each give different forms of signals. These soft ratings are collected by logging events and then sending it to a consumer to be stored elsewhere for analysis. We can even connect an event stream to a sequence of transformations to process the data for downstream learning tasks
+
+Often times, we collect this data to identify if our funnel is working as intended. A funnel in this case is simply a collection of steps that a user must take to get from one state to another. This helps us to understand how good our recommendation system is performing at each individual portion.
+
+### Dataset Considerations
+
+There are a few important things to consider when looking at user ranking data
+
+1. Sparsity : The least popular items are starved for data and recommendations. The matrix becomes more sparse over time. This means that certain items/users will tend to dominate the recommendations.
+ 
+2. Popularity : The most popular items attract the most attention and widen the gap with other items significantly. 
+
