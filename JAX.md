@@ -2,3 +2,17 @@ JAX is a functional programming language that is a competitor to [Pytorch](Pytor
 
 ## Generating Random Seeds
 
+```python
+import jax.random as random
+key = random.PRNGKey(0)
+x = random.uniform(key,shape=[3,3])
+print(x)
+
+key,subkey = random.split(key)
+x = random.uniform(key,shape=[3,3])
+x
+
+y = random.uniform(subkey,shape=[3,3])
+y
+```
+

@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAX.md",
+                "file": "Building Recommendation Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAX.md",
+                "file": "Building Recommendation Systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAX.md",
+                "file": "Building Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAX.md"
+                "file": "Building Recommendation Systems.md"
               }
             }
           }
@@ -196,11 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f25b5a079a4d6d6",
+  "active": "349468d83519e9ee",
   "lastOpenFiles": [
+    "Recommendation Systems.md",
     "Building Recommendation Systems.md",
     "JAX.md",
-    "Recommendation Systems.md",
     "README.md",
     "RNN.md",
     "Machine Learning with PyTorch and Scikit-Learn.md",
