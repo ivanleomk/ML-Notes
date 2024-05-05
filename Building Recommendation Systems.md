@@ -60,4 +60,18 @@ In short, the agent has a prior assumption about what is the greatest expected r
 
 # Content-Based Filtering
 
-We can instead utilise vector representations of indiv
+We can instead utilise vector representations of individual items/users to perform recommendations. This allows us to find items using methods like vector search and nearest-neighbour search.
+
+# System Design
+
+## Offline vs Online
+
+For Recommendation systems to perform well, they require a lot of data. However, we want these systems to perform within a certain acceptable latency. As a result, we frequently have a distinction between online and offline components of our system.
+
+- Offline/Batch : This has a longer expected time period for completion and frequently processes much larger chunks of data
+- Online/Real-Time: This is performed in a quick request and is often resource constrained. It needs to finish within a set latency budget so that users get recommendations on time.
+
+This changes our original model
+
+- Collector 
+	- Offline : This has access to the entire dataset 
