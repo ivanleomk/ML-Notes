@@ -4,7 +4,9 @@
 There are three core components of recommendation systems: The collector, ranker and server
 
 - Collector: Know what is in the collection of things to be recommended
-- Ranker : Re-order the collection provided
+- Ranker : Re-order the collection provided. There are really two portions here when it comes to ranking 
+	- Filtering : Coarse inclusion and exclusion of items appropriate for recommendation
+	- Scoring : Creating an ordering of potential recommendations with respect  
 - Server: Take the ordered subset and ensure that the necessary data schema is satisfied and return the requested number of recommendations. 
 
 
@@ -74,4 +76,11 @@ For Recommendation systems to perform well, they require a lot of data. However,
 This changes our original model
 
 - Collector 
-	- Offline : This has access to the entire dataset 
+	- Offline : This has access to all of the information available and is responsible for writing the necessary downstream datasets to be used in real time
+	- Online : This has access to the indexed information provided by the offline collector to provide real-time access to the parts of the data necessary for inference. 
+- Ranker 
+	- Offline : An offline ranker processes/builds data structures that the online ranker can utilise. This might also involve using human annotators in the loop.
+	- Online : It utilises the filtering infrastructure built offline to combine different features into a final rank for each candidate 
+- Server 
+	- Offline : This might handle experimentation
+	- Online: This gives the final recommended items to the user
