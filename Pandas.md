@@ -169,3 +169,14 @@ c = c.unstack('type').fillna(0)
 
 ## Merging 
 
+We can also merge two separate datasets or a table on itself
+
+```python
+c = cast
+c =  cast[c.name == 'Ellen Page']
+c.merge(release_dates)
+```
+
+
+
+
