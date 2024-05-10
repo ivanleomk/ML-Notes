@@ -110,4 +110,16 @@ c = c[c.name == "George Clooney"]
 c.groupby(c.year // 10 * 10 ).size().plot(ylim=0)
 ```
 
-We can also use a unstack operation 
+We can also use a unstack operation. This transposes our rows and columns and is useful when we're using a unstack.
+
+```
+c  = cast
+c = c[(c.character == 'Kermit the Frog') | (c.character == 'Oscar the Grouch')]
+c = c.groupby(['character',c.year // 10 * 10]).size()
+c = c.unstack(0).fillna(0) # note here that fillna helps usto fill in the values
+c
+```
+
+
+
+
