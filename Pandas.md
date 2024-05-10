@@ -80,9 +80,15 @@ We can then set the index of our dataframe by using
 
 ```
 c = cast
-c = c.set_index(['title'])
+c = c.set_index(['title']).sort_index() # A sorted index is much much faster
+c = c.set_index(['title','year']).sort_index()
 
 c.loc['Sleuth'] # We can then lookup indexes using the `.loc`
+```
+
+We can remove the indexes by doing
+```
+c.reset_index(['year','index'])
 ```
 
 
