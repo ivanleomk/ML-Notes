@@ -30,10 +30,18 @@ c.sort_values('n') # Sort by a Field
 ```
 
 We can also use special string methods by using the following syntax
+
+This is for strings
 ```python
 titles[titles['title'].str.contains("Treasure
 Island")==True].sort_values("year")
 ```
+
+This is for dates
+```python
+titles[titles['date'].dt.... ]
+```
+
 ## Series
 
 We can read out a specific column by using 
@@ -122,7 +130,6 @@ c  = cast
 c = c[(c.character == 'Kermit the Frog') | (c.character == 'Oscar the Grouch')]
 c = c.groupby(['character',c.year // 10 * 10]).size()
 c = c.unstack(0).fillna(0) # note here that fillna helps usto fill in the values
-c
 ```
 
 Some common operations that we can work with `groupby`
@@ -139,9 +146,26 @@ c = cast
 c = c[c.name == 'Frank Oz']
 g = c.groupby(['year','title']).size()
 g[g > 1]
+```
 
+Examples of when we might want to work with unstack
 
+```python
+# This allows us to do a group by on year-type and then take the diff
+c = cast[cast.year < 2115]
+c = c.groupby(['year','type']).size()
+c = c.unstack('type').fillna(0)
+(c.actor/(c.actor + c.actress)).plot(ylim=[0,1])
+
+# Aggregate by multiple examples
+# Eg. compare the fraction of actor<>acctress for each year w.r.t n
+c = cast
+c = c[c.n <=3]
+c = c.groupby(['year','type','n']).size()
+c = c.unstack('type').fillna(0)
+(c.actor / (c.actor+c.actress)).unstack('n').plot(ylim=[0,1])
 ```
 
 
+## Merging 
 
