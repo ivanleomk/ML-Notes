@@ -128,11 +128,18 @@ c
 Some common operations that we can work with `groupby`
 
 ```python
-
-c.groupby(['year','type']).size() # Getting the total size of each subset
+# Getting the total size of each subset
+c.groupby(['year','type']).size() 
 
 # Get the max of each subset that we've grouped it by
-c = c.sort_values('n').groupby(['year'])[['n']].max()'
+c = c.groupby(['year'])[['n']].max()'
+
+# Filter by the count value of each
+c = cast
+c = c[c.name == 'Frank Oz']
+g = c.groupby(['year','title']).size()
+g[g > 1]
+
 
 ```
 
