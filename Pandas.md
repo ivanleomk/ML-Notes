@@ -101,7 +101,7 @@ c.reset_index(['year','index'])
 
 We can run aggregations using the `.groupBy`  query
 
-```
+```python
 c = cast
 c = c[c.name == "George Clooney"]
 c.groupby(['year']).size().plot(ylim=0)
@@ -109,7 +109,7 @@ c.groupby(['year']).size().plot(ylim=0)
 
 We can even run a groupBy on a transformation of the column
 
-```
+```python
 c = cast
 c = c[c.name == "George Clooney"]
 c.groupby(c.year // 10 * 10 ).size().plot(ylim=0)
@@ -117,7 +117,7 @@ c.groupby(c.year // 10 * 10 ).size().plot(ylim=0)
 
 We can also use a unstack operation. This transposes our rows and columns and is useful when we're using a unstack.
 
-```
+```python
 c  = cast
 c = c[(c.character == 'Kermit the Frog') | (c.character == 'Oscar the Grouch')]
 c = c.groupby(['character',c.year // 10 * 10]).size()
@@ -125,6 +125,16 @@ c = c.unstack(0).fillna(0) # note here that fillna helps usto fill in the values
 c
 ```
 
+Some common operations that we can work with `groupby`
+
+```python
+
+c.groupby(['year','type']).size() # Getting the total size of each subset
+
+# Get the max of each subset that we've grouped it by
+c = c.sort_values('n').groupby(['year'])[['n']].max()'
+
+```
 
 
 
