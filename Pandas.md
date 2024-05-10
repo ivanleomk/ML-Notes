@@ -34,7 +34,6 @@ We can also use special string methods by using the following syntax
 titles[titles['title'].str.contains("Treasure
 Island")==True].sort_values("year")
 ```
-
 ## Series
 
 We can read out a specific column by using 
@@ -43,7 +42,8 @@ We can read out a specific column by using
 c.year # This gets a series
 ```
 
-This gives us a variety of different methods such as 
+We can also get out the specific counts for this specific field by using `value_counts()`. Note that this gives a sorted series, so we'd get the largest -> smallest values by default
+
 ```python
 c.year.value_counts()
 ```
@@ -65,6 +65,11 @@ c = c[c.character=="Kermit the Frog"]
 c.plot(x='year',y='n',kind='scatter')
 ```
 
+We can also generate plots from value_counts by doing
+
+```python
+(t.year // 10 * 10).value_counts().sort_index().plot(kind='bar')
+```
 
 ## Modifying Dataset
 
