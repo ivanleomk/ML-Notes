@@ -92,4 +92,22 @@ c.reset_index(['year','index'])
 ```
 
 
+## Aggregation
 
+We can run aggregations using the `.groupBy`  query
+
+```
+c = cast
+c = c[c.name == "George Clooney"]
+c.groupby(['year']).size().plot(ylim=0)
+```
+
+We can even run a groupBy on a transformation of the column
+
+```
+c = cast
+c = c[c.name == "George Clooney"]
+c.groupby(c.year // 10 * 10 ).size().plot(ylim=0)
+```
+
+We can also use a unstack operation 
