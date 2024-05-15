@@ -26,3 +26,5 @@ These are my existing ML notes which are a record of all the things I've learnt.
 [A Comprehensive Overview of Large Language Models](/A%20Comprehensive%20Overview%20of%20Large%20Language%20Models.md) : A walkthrough of the key ideas and concepts around large language models
 
 [Improving Language Understanding by Generative Pre-Training](/Improving%20Language%20Understanding%20by%20Generative%20Pre-Training.md) : How GPT-1 helped to bring forth a huge revolution in the NLP space by showing efficient transfer learning abilities
+
+[[ORPO Monolithic Preference Optimization without Reference Model]] : Using the odds ratio of LLM output generated directly to 
