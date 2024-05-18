@@ -4,6 +4,8 @@ These are my existing ML notes which are a record of all the things I've learnt.
 
 # Resources
 
+[[LLM Fine Tuning Maven]] : A Maven Course on fine-tuning large language models
+
 [A Guide To Hyperparameters](/A%20Guide%20To%20Hyperparameters.md) : These are some notes that I took about training hyper-parameters when fine-tuning models
 
 [Large Language Models](/Large%20Language%20Models.md) : A quick introduction to what is a Large Language Model

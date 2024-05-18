@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ORPO Monolithic Preference Optimization without Reference Model.md",
+                "file": "LLM Fine Tuning Maven.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ORPO Monolithic Preference Optimization without Reference Model.md",
+                "file": "LLM Fine Tuning Maven.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ORPO Monolithic Preference Optimization without Reference Model.md",
+                "file": "LLM Fine Tuning Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ORPO Monolithic Preference Optimization without Reference Model.md"
+                "file": "LLM Fine Tuning Maven.md"
               }
             }
           }
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,6 +175,9 @@
   },
   "active": "86ecee637142fd68",
   "lastOpenFiles": [
+    "README.md",
+    "LLM Fine Tuning Maven.md",
+    "ORPO Monolithic Preference Optimization without Reference Model.md",
     "assets/CleanShot 2024-05-16 at 01.20.37@2x.png",
     "assets/CleanShot 2024-05-16 at 01.17.21@2x.png",
     "assets/CleanShot 2024-05-16 at 01.16.10.png",
@@ -183,8 +187,6 @@
     "assets/CleanShot 2024-05-16 at 01.09.13@2x.png",
     "assets/CleanShot 2024-05-16 at 01.07.06@2x.png",
     "assets/CleanShot 2024-05-16 at 01.05.18@2x.png",
-    "README.md",
-    "ORPO Monolithic Preference Optimization without Reference Model.md",
     "Pandas.md",
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
@@ -195,7 +197,6 @@
     "assets/Screenshot 2024-04-28 at 12.43.51 AM.png",
     "The Illustrated Transformer.md",
     "The Transformer Explained.md",
-    "assets/Screenshot 2024-04-27 at 9.15.45 PM.png",
     "Pytorch.md",
     "The Annotated Transformer.md",
     "Large Language Models.md",
