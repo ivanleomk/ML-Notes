@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Fine Tuning Maven.md",
+                "file": "LoRA Learns Less and Forgets Less.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM Fine Tuning Maven.md",
+                "file": "LoRA Learns Less and Forgets Less.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM Fine Tuning Maven.md",
+                "file": "LoRA Learns Less and Forgets Less.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM Fine Tuning Maven.md"
+                "file": "LoRA Learns Less and Forgets Less.md"
               }
             }
           }
@@ -175,6 +175,9 @@
   },
   "active": "86ecee637142fd68",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-05-23 at 20.49.44.png",
+    "Papers.md",
+    "LoRA Learns Less and Forgets Less.md",
     "README.md",
     "LLM Fine Tuning Maven.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
@@ -207,8 +210,6 @@
     "What is a GPT - A visual intro to transformers.md",
     "An Introduction to Deep Reinforcement Learning.md",
     "The Spelled Out Intro to Neural Networks and Back Propagation.md",
-    "But What is a Neural Network?.md",
-    "Elicit.md",
-    "A Short Introduction To Machine Learning.md"
+    "But What is a Neural Network?.md"
   ]
 }
