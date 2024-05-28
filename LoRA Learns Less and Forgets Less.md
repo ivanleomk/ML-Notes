@@ -1,12 +1,4 @@
 > https://arxiv.org/abs/2405.09673
-
-?: Inst
-
-?: Full Fine-Tuning barely changes the spectrum of the base model's weight matrices, and yet the difference between the two is high rank?
-
-?: For CPT, we manipulate the number of unique tokens (0.25, 0.5, 1, 2, 4, 8, 16, 20 billion), using individual learning rate cooldown schedules
-
-?: It seems a bit weird that we would evaluate a coding/math model on common sense reasoning datasets. I wonder if we could instead finetune a coding.math model using a full-fine tune then see how its performance drops when we do LoRA vs fine tune on an unrelated dataset (Eg. FineWeb)
 # Abstract
 
 LoRA is a method used to fine tune large language models by training an adaptor that approximates the original weights of the matrix. By using LoRA, we're able to significantly reduce the memory footprint of the fine tune job.
