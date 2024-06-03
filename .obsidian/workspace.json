@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evaluation Metrics.md",
+                "file": "Evaluation Metrics For Ranking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Evaluation Metrics.md",
+                "file": "Evaluation Metrics For Ranking.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Evaluation Metrics.md",
+                "file": "Evaluation Metrics For Ranking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evaluation Metrics.md"
+                "file": "Evaluation Metrics For Ranking.md"
               }
             }
           }
@@ -150,7 +150,7 @@
   },
   "active": "24e5803601e23ef6",
   "lastOpenFiles": [
-    "Evaluation Metrics.md",
+    "Evaluation Metrics For Ranking.md",
     "README.md",
     "LoRA Learns Less and Forgets Less.md",
     "assets/CleanShot 2024-05-23 at 20.51.11.png",
