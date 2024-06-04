@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evaluation Metrics For Ranking.md",
+                "file": "Ranking.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "28b7713da57d93ca",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Evaluation Metrics For Ranking.md",
+                "file": "Ranking.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Evaluation Metrics For Ranking.md",
+                "file": "Ranking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evaluation Metrics For Ranking.md"
+                "file": "Ranking.md"
               }
             }
           }
@@ -134,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,7 +150,7 @@
   },
   "active": "24e5803601e23ef6",
   "lastOpenFiles": [
-    "Evaluation Metrics For Ranking.md",
+    "Ranking.md",
     "README.md",
     "LoRA Learns Less and Forgets Less.md",
     "assets/CleanShot 2024-05-23 at 20.51.11.png",
