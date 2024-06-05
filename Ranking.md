@@ -1,9 +1,15 @@
-# Problem Setup
+# What is Ranking
 
 Ranking documents/chunks in response to a query that we have is fundamentally different from regression and classification
 
 - We're not just doing a classification of whether a chunk is relevant or not, we need an ordering
 - We're not just predicting a number here because we need to also consider the generated value with regard to the other row items
+## Problem Setup
+
+Fundamentally we have a query `q` and some corpus `D` which contains documents that have some innate structure.
+
+Our goal is to be able to retrieve the best set of $d \in D$ where $d$ is a list of documents of size $k$ that will give the user the best results.
+## Data Encoding
 
 Therefore a common way to encode the training data is a pairwise comparison
 
@@ -50,6 +56,10 @@ In short we can think of Precision vs Recall as two different questions
 
 1. How many retrieved items are relevant?
 2. How many relevant items were retrieved?
+
+## MRR
+
+I care a lot more about the first 2 items being out of order than the last 8
 
 ## NDCG
 
