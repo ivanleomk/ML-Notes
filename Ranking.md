@@ -65,7 +65,20 @@ I care a lot more about the first 2 items being out of order than the last 8
 
 This is used when we have relevance metrics for each of the retrieved items. Typically we might use a score from 0 -> 3 where a higher score indicates a more relevant item.
 
+# Algorithms
 
+### RankNet 
+
+We compare using just relevancy score and pairwise elements are compared
+
+## LambdaRank
+
+Algorithm that uses the NDCG to rank and compare pairwise elements
+## LambdaMART
+
+This is a listwise algorithm which takes in a list of items to rank
+
+## Lambda Rank
 
 # Key Considerations
 
