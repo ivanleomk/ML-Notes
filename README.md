@@ -22,3 +22,5 @@ Here are the [Papers](Papers.md) that I'm currently reading/have read.
 
 [[RNN]] : A simplified implementation of RNNs in Pytorch
 
+[[Retrieval Augmented Generation]]
+

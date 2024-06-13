@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A Practical Survey on Faster and Lighter Transformers.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45a19cd366502474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Retrieval Augmented Generation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A Practical Survey on Faster and Lighter Transformers.md",
+                "file": "Retrieval Augmented Generation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A Practical Survey on Faster and Lighter Transformers.md",
+                "file": "Retrieval Augmented Generation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A Practical Survey on Faster and Lighter Transformers.md"
+                "file": "Retrieval Augmented Generation.md"
               }
             }
           }
@@ -148,15 +161,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24e5803601e23ef6",
+  "active": "45a19cd366502474",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-06-13 at 20.13.56.png",
+    "README.md",
+    "Retrieval Augmented Generation.md",
+    "A Practical Survey on Faster and Lighter Transformers.md",
     "assets/CleanShot 2024-06-13 at 18.17.47.png",
     "assets/CleanShot 2024-06-13 at 18.13.09.png",
     "assets/CleanShot 2024-06-13 at 18.01.19.png",
     "assets/CleanShot 2024-06-13 at 17.54.12.png",
     "Papers.md",
-    "A Practical Survey on Faster and Lighter Transformers.md",
-    "README.md",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "assets/CleanShot 2024-05-23 at 20.51.11.png",
@@ -167,7 +182,6 @@
     "assets/CleanShot 2024-05-16 at 01.17.21@2x.png",
     "assets/CleanShot 2024-05-16 at 01.16.10.png",
     "assets/CleanShot 2024-05-16 at 01.14.48@2x.png",
-    "assets/CleanShot 2024-05-16 at 01.14.29@2x.png",
     "Pandas.md",
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
@@ -184,7 +198,6 @@
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
     "Attention in RNNs.md",
     "60 Minute Blitz into Pytorch.md",
-    "What is a GPT - A visual intro to transformers.md",
-    "An Introduction to Deep Reinforcement Learning.md"
+    "What is a GPT - A visual intro to transformers.md"
   ]
 }
