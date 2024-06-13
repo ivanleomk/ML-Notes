@@ -45,4 +45,6 @@ We can also use [[Low Rank Factorisation]] to that approximates the attention wi
 
 ![](assets/CleanShot%202024-06-13%20at%2018.17.47.png)
 
-We also had some architectural changes which proposed the use of segment based recurrence between windows. This however, results in the transformer model not being able to capture dependencies outside the FIFO memory range.
+We also had some architectural changes which proposed the use of segment based recurrence between windows. This however, results in the transformer model not being able to capture dependencies outside the FIFO memory range. Other methods also suggest looking at reducing the size of the hidden state through sequence compression.
+
+
