@@ -1,5 +1,10 @@
 ## Papers
 
+## Survey Papers
+
+[[A Practical Survey on Faster and Lighter Transformers]] : Popular approaches to make Transformers fasters and lighter by providing a comprehensive explanation of the methods' strengths, limitations and underlying assumptions
+## Uncategorised
+
 [Matryoshka Embeddings](/Matryoshka%20Embeddings.md): Training embedding models that are able to work at a variety of different embedding dimensions
 
 [Language Models Are Unsupervised Multitask Learners](/Language%20Models%20Are%20Unsupervised%20Multitask%20Learners.md) : How GPT-2 challenged a traditional paradigm of pre-train -> fine-tune on task with its auto-regressive prompting ability

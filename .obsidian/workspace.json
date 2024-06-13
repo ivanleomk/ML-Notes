@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranking.md",
+                "file": "A Practical Survey on Faster and Lighter Transformers.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranking.md",
+                "file": "A Practical Survey on Faster and Lighter Transformers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranking.md",
+                "file": "A Practical Survey on Faster and Lighter Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranking.md"
+                "file": "A Practical Survey on Faster and Lighter Transformers.md"
               }
             }
           }
@@ -150,12 +150,14 @@
   },
   "active": "24e5803601e23ef6",
   "lastOpenFiles": [
-    "Ranking.md",
+    "assets/CleanShot 2024-06-13 at 17.54.12.png",
+    "Papers.md",
+    "A Practical Survey on Faster and Lighter Transformers.md",
     "README.md",
+    "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "assets/CleanShot 2024-05-23 at 20.51.11.png",
     "assets/CleanShot 2024-05-23 at 20.49.44.png",
-    "Papers.md",
     "LLM Fine Tuning Maven.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
     "assets/CleanShot 2024-05-16 at 01.20.37@2x.png",
@@ -183,8 +185,6 @@
     "Attention in RNNs.md",
     "60 Minute Blitz into Pytorch.md",
     "What is a GPT - A visual intro to transformers.md",
-    "An Introduction to Deep Reinforcement Learning.md",
-    "The Spelled Out Intro to Neural Networks and Back Propagation.md",
-    "But What is a Neural Network?.md"
+    "An Introduction to Deep Reinforcement Learning.md"
   ]
 }
