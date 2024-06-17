@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "t-SNE.md",
+                "file": "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "t-SNE.md",
+                "file": "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "t-SNE.md",
+                "file": "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "t-SNE.md"
+                "file": "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md"
               }
             }
           }
@@ -175,11 +175,16 @@
   },
   "active": "e44421a4263f491a",
   "lastOpenFiles": [
-    "Principal Component Analysis.md",
+    "Papers.md",
+    "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md",
+    "Atomised Search Length.md",
+    "assets/CleanShot 2024-06-17 at 12.26.46.png",
+    "Atomised Search Length Beyond User Models.md",
+    "README.md",
     "t-SNE.md",
+    "Principal Component Analysis.md",
     "assets/CleanShot 2024-06-17 at 09.47.36.png",
     "Retrieval Augmented Generation.md",
-    "README.md",
     "assets/CleanShot 2024-06-13 at 20.29.37.png",
     "assets/CleanShot 2024-06-13 at 20.27.01.png",
     "assets/CleanShot 2024-06-13 at 20.13.56.png",
@@ -188,11 +193,9 @@
     "assets/CleanShot 2024-06-13 at 18.13.09.png",
     "assets/CleanShot 2024-06-13 at 18.01.19.png",
     "assets/CleanShot 2024-06-13 at 17.54.12.png",
-    "Papers.md",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "assets/CleanShot 2024-05-23 at 20.51.11.png",
-    "assets/CleanShot 2024-05-23 at 20.49.44.png",
     "LLM Fine Tuning Maven.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
     "Pandas.md",
@@ -207,9 +210,6 @@
     "Pytorch.md",
     "The Annotated Transformer.md",
     "Large Language Models.md",
-    "Byte Pair Encoding.md",
-    "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
-    "Attention in RNNs.md",
-    "60 Minute Blitz into Pytorch.md"
+    "Byte Pair Encoding.md"
   ]
 }

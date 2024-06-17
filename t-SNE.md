@@ -7,4 +7,4 @@ It's an alternative to [[Principal Component Analysis]] and helps us to generate
 The benefit of using t-SNE is that it works on a pair-wise basis and aims to preserve the relationship between two pairs of data. The high level overview is that we 
 
 1. Visualise the distance between two points proportional to the distance between the two points using a gaussian distribution
-2. 
+
