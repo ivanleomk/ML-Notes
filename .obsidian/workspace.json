@@ -175,6 +175,7 @@
   },
   "active": "e44421a4263f491a",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-06-17 at 13.03.57.png",
     "Papers.md",
     "MS-Shift An Analysis of MS Marco Distribution Shifts on Neural Retrieval.md",
     "Atomised Search Length.md",
@@ -209,7 +210,6 @@
     "The Transformer Explained.md",
     "Pytorch.md",
     "The Annotated Transformer.md",
-    "Large Language Models.md",
-    "Byte Pair Encoding.md"
+    "Large Language Models.md"
   ]
 }
