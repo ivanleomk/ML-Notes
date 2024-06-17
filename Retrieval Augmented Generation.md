@@ -35,6 +35,21 @@ Therefore we just need an entity detection model such as [[GliNER]] which can do
 
 ## Other Improvements
 
-We can also utilise query/document sparse expansion such as [[SPLADE]] and multi-vector representations such as [[ColBERT]] in order to improve the efficiency of individual retrieval pipelines. 
+## Query Expansion
+We can also utilise query/document sparse expansion such as [[SPLADE]].
 
-Ultimately, these other improvements are valuable but will have decreasing cost-effort ratio.
+
+### Multi-Vector Representations
+
+We can also usemulti-vector representations such as [[ColBERT]] in order to improve the efficiency of individual retrieval pipelines. 
+
+### Clustering/Topic Modelling
+
+We can use [[Topic Modelling]] as a way to identify clusters in our user queries that we can then process idependently.
+
+This will involve
+
+1. Selecting a subset of queries
+2. Using [[t-SNE]] to understand how the data distribution looks like
+3. Using a [[Gensim]] [[Coherence Model]] to determine the best number of topics and clusters
+4. Then using [[LDA]] to cluster topics. Ideally we can start with a higher value of `k` and then work towards finding better representations

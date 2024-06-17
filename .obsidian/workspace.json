@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e44421a4263f491a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Retrieval Augmented Generation.md",
                 "mode": "source",
                 "source": false
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,13 +173,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45a19cd366502474",
+  "active": "e44421a4263f491a",
   "lastOpenFiles": [
+    "README.md",
+    "Retrieval Augmented Generation.md",
     "assets/CleanShot 2024-06-13 at 20.29.37.png",
     "assets/CleanShot 2024-06-13 at 20.27.01.png",
     "assets/CleanShot 2024-06-13 at 20.13.56.png",
-    "README.md",
-    "Retrieval Augmented Generation.md",
     "A Practical Survey on Faster and Lighter Transformers.md",
     "assets/CleanShot 2024-06-13 at 18.17.47.png",
     "assets/CleanShot 2024-06-13 at 18.13.09.png",
@@ -181,7 +193,6 @@
     "LLM Fine Tuning Maven.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
     "assets/CleanShot 2024-05-16 at 01.20.37@2x.png",
-    "assets/CleanShot 2024-05-16 at 01.17.21@2x.png",
     "Pandas.md",
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
