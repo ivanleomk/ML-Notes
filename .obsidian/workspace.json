@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Retrieval Augmented Generation.md",
+                "file": "Principal Component Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Retrieval Augmented Generation.md",
+                "file": "Principal Component Analysis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Retrieval Augmented Generation.md",
+                "file": "Principal Component Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Retrieval Augmented Generation.md"
+                "file": "Principal Component Analysis.md"
               }
             }
           }
@@ -175,8 +175,11 @@
   },
   "active": "e44421a4263f491a",
   "lastOpenFiles": [
-    "README.md",
+    "t-SNE.md",
+    "Principal Component Analysis.md",
+    "assets/CleanShot 2024-06-17 at 09.47.36.png",
     "Retrieval Augmented Generation.md",
+    "README.md",
     "assets/CleanShot 2024-06-13 at 20.29.37.png",
     "assets/CleanShot 2024-06-13 at 20.27.01.png",
     "assets/CleanShot 2024-06-13 at 20.13.56.png",
@@ -192,7 +195,6 @@
     "assets/CleanShot 2024-05-23 at 20.49.44.png",
     "LLM Fine Tuning Maven.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
-    "assets/CleanShot 2024-05-16 at 01.20.37@2x.png",
     "Pandas.md",
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
@@ -208,7 +210,6 @@
     "Byte Pair Encoding.md",
     "The Illustrated GPT-2 - Visualising Transformer Language Models.md",
     "Attention in RNNs.md",
-    "60 Minute Blitz into Pytorch.md",
-    "What is a GPT - A visual intro to transformers.md"
+    "60 Minute Blitz into Pytorch.md"
   ]
 }
