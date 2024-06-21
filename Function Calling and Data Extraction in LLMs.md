@@ -11,6 +11,4 @@ Variations of function calling
 - Multiple Parllel Func Call -> instructor Iterable with Union Type
 - Nested APIs -> Just seems like a simple bunch of smaller queries? Eg. Combine x,y and z. Could be solved with a large main type and 5 smaller subtypes lol
 
-Working with OpenAPIs -> Eg. calling a joke
-
-OpenAPI format -> Their proprietary custom format which is just .__type sig and .__ name
+Using a python dataclass...directly inside the prompt itself
