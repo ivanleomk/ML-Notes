@@ -24,5 +24,7 @@ Here are the [Papers](Papers.md) that I'm currently reading/have read.
 
 [[Retrieval Augmented Generation]] : How to do RAG
 
+[[Function Calling and Data Extraction in LLMs]] : A Course by NexusRaven
+
 
 
