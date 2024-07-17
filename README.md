@@ -24,5 +24,7 @@ Here are the [Papers](Papers.md) that I'm currently reading/have read.
 
 [[Retrieval Augmented Generation]] : How to do RAG
 
+[[Chroma DB Chunking Guide]]
+
 
 
