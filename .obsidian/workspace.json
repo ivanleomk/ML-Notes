@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9db08b99c6bae568",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45a19cd366502474",
+  "active": "9db08b99c6bae568",
   "lastOpenFiles": [
     "README.md",
     "Chroma DB Chunking Guide.md",
