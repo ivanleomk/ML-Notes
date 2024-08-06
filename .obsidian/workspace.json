@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46f2a2bcb1eec59d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kyle Corbitt - From Prompt To Fine Tuning.md",
+                "file": "Evals.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kyle Corbitt - From Prompt To Fine Tuning.md",
+                "file": "Evals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kyle Corbitt - From Prompt To Fine Tuning.md"
+                "file": "Evals.md"
               }
             }
           }
@@ -162,10 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ed7ef2babbf0c8f",
+  "active": "46f2a2bcb1eec59d",
   "lastOpenFiles": [
-    "LLM Fine Tuning Maven.md",
     "Kyle Corbitt - From Prompt To Fine Tuning.md",
+    "Evals.md",
+    "LLM Fine Tuning Maven.md",
     "README.md",
     "Chroma DB Chunking Guide.md",
     "Function Calling and Data Extraction in LLMs.md",
@@ -198,7 +211,6 @@
     "JAX.md",
     "RNN.md",
     "Machine Learning with PyTorch and Scikit-Learn.md",
-    "The Illustrated Transformer.md",
-    "The Transformer Explained.md"
+    "The Illustrated Transformer.md"
   ]
 }
