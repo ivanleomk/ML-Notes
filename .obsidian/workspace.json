@@ -4,45 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "57d4d4d8c0fa6bf2",
+        "id": "35ba1f95cf5c367b",
         "type": "tabs",
         "children": [
           {
-            "id": "24e5803601e23ef6",
+            "id": "d5c1de9333f4aae3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45a19cd366502474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chroma DB Chunking Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9db08b99c6bae568",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chroma DB Chunking Guide.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chroma DB Chunking Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Chroma DB Chunking Guide.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -172,7 +141,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9db08b99c6bae568",
+  "active": "d5c1de9333f4aae3",
   "lastOpenFiles": [
     "README.md",
     "Chroma DB Chunking Guide.md",
