@@ -11,5 +11,13 @@ Machine Learning Systems are useful in the following situations
 7. **Wrong Predictions Are Cheap** : ML models will not always be right so it's important that we find use cases where the cost of a wrong prediction is not that big. We can compare say a recommendation system vs a cancer detection algorithm - the stakes are very different.
 8. **It's at Scale**: Since ML Systems require non-trivial investments in technology, talent and resources, it's important to make sure we are dealing with a problem that can benefit from scale
 
-It's important to note too that when building Machine Learning systems, we'll be working with many different stakeholders. These stakeholders are each having their own set of requirements that will be 
+It's important to note too that when building Machine Learning systems, we'll be working with many different stakeholders. These stakeholders are each having their own set of requirements that might be in conflict with each other.
+
+For instance, for a food delivery service that recommends restaurants, we might have
+
+- Engineers might want to optimise for performance
+- Sales teams might want to optimise for commissions
+- Product Manager teams might want to optimise for latency because each ms results in x% drop in revenue
+
+It's difficult to balance all these requirements at the same time.
 
