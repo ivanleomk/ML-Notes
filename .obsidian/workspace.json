@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evals.md",
+                "file": "Designing Machine Learning Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Evals.md",
+                "file": "Designing Machine Learning Systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Evals.md",
+                "file": "Designing Machine Learning Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,12 +151,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evals.md"
+                "file": "Designing Machine Learning Systems.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,10 +175,11 @@
   },
   "active": "46f2a2bcb1eec59d",
   "lastOpenFiles": [
-    "Kyle Corbitt - From Prompt To Fine Tuning.md",
-    "Evals.md",
-    "LLM Fine Tuning Maven.md",
     "README.md",
+    "Designing Machine Learning Systems.md",
+    "Evals.md",
+    "Kyle Corbitt - From Prompt To Fine Tuning.md",
+    "LLM Fine Tuning Maven.md",
     "Chroma DB Chunking Guide.md",
     "Function Calling and Data Extraction in LLMs.md",
     "asd.md",
@@ -210,7 +210,6 @@
     "Recommendation Systems.md",
     "JAX.md",
     "RNN.md",
-    "Machine Learning with PyTorch and Scikit-Learn.md",
-    "The Illustrated Transformer.md"
+    "Machine Learning with PyTorch and Scikit-Learn.md"
   ]
 }
