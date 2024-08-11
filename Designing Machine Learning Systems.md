@@ -34,5 +34,45 @@ There are a few big requirements for Machine Learning Systems
 3. **Maintainability** : We need to structure our workloads and set up infrastructure so that different contributors can work nicely with one another. 
 4. **Adaptability** : The system should be able to adapt to changing customer inputs 
 
+A machine learning is always in the process of being worked on. It's an iterative process to improve it. This can be summarised in the following steps
+
+1. Project Scoping : Figure out stakeholders and allocate budget
+2. Data Engineering : How do we handle the data processing and pipelines that we need so that our models work
+3. ML Model Development : Extract Features and develop initial models leveraging these features
+4. Deployment : Figure out how to deploy the model
+5. Monitoring and Continual Learning : Monitor the model for performance decays and drops
+
+## Types of ML Problems
+
+A Machine Learning problem is characterised by inputs, outputs and having a clear objective function that guides the learning process. There are a few key types of machine learning problems
+
+1. Regression : Let's predict a real number value
+2. Classification
+	1. Binary Classification : We have two classes - let's try to classify into one of them
+	2. Multi Class Classification : We have a single input, we have a few probable classes it could belong to, let's try to classify into one of them
+	3. Multi Label Classification : We have a single input, we have a few different classes, our input can belong to one or more of them
+
+When we've got a classification class with a large number of classes, this becomes an issue of high cardinality. 
+If your model needs on average 100 examples to be able to accurately classify a class, then this means that you need `100n` examples to accurately train a model for `n` total classes.
+
+## Framing a problem
+
+Typically, we want to have our systems setup in such a way that we're able to easily adapt it for future usage without retraining a model from scratch
+
+Take the following example where we use a set of input features and an app's input features to determine the likelihood of a user liking it.
+![](assets/CleanShot%202024-08-11%20at%2008.26.17@2x.png)
+
+Compare this instead if we had framed it as a multi-class classification problem.
+![](assets/CleanShot%202024-08-11%20at%2008.27.12@2x.png)
+
+We can adapt this to a case whereby we might have multiple learning objectives - eg. to increase engagement and reduce the instance of engagement-baiting posts on user feeds. We can represent this as 
+
+$$
+pred = \alpha (\text{Engagement}) + \beta(\text{Engagement Baiting})
+$$
+There are two real ways to do this
+
+1. Train a single model using a loss function that combines the two
+2. Train two separate models and tune the values of $\alpha$ and $\beta$ in production depending on how it's received
 
 
