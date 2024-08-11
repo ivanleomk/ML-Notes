@@ -79,12 +79,37 @@ There are two real ways to do this
 
 Three key things to consider
 
+- Where does my data come from?
 - How is my data stored?
 - How does my data flow into my system?
 - How is my data processed?
 
+## Sources 
+
+Data can come from a few different sources - we have first, second and third-party. 
+
+1. First Party : These are system logs or user data that we collect. Often times we'll not have to care about system logs unless we're doing debugging. User data on the other hand tends to be noisy, so we need to ensure we're putting aside time to debug/validate the data to ensure it's valid
+2. Second Party : This refers to information that is collected by other companies on their users
+3. Third Party : This refers to information that's collected by companies on the public that aren't directly their users
+
 ## Storing 
+
+When thinking about data storage, there are a few requirements - the type of data you're looking at, the format of your data and the system that you're storing it in
+
+### Type Of Data
 
 There are two main distinctions here between the different types of data - structured and unstructured. The main difference here is who takes the responsibility for ensuring some form of structure.
 
-Unstructured data is normally stored in a [[Datalake]] in raw format where there isn't any assumed sch
+Unstructured data is normally stored in a [[Datalake]] in raw format where there isn't any assumed schema defined on the actual data itself. We then apply a transformation on the data when we want to process it.
+
+Structured data has a schema enforced on it - so any application that reads it knows exactly what sort of information it contains.
+
+### Format of Data
+
+There are a few common ways to store data
+
+1. JSON : This is a text file which stores data in the form of key-value pairs
+2. Parquet : This is a binary file ( consists of 1s and 0s ) 
+3. CSV: This is a text file where each column is separated by a comma while each row is demarcated by a new line
+
+
