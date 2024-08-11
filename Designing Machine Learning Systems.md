@@ -176,7 +176,25 @@ A good way to avoid this is to have a sense of data lineage. This is because eac
 
 Sometimes if we don't have hand labels, we might be able to use natural labels. These are labels that arise naturally because the model's predictions can be evaluated automatically by a system.
 
-An example is a Google Maps ride prediction system
+An example is a Google Maps system that predicts how long a trip will take. It knows at the end of your trip the exact time you took. Therefore it can match its predictions against the actual ground truth. 
+
+We can also categorise natural labels further into implicit vs explicit labels - one where users are explicitly indicating their interest in a product and another where users are showing implicit interest (Eg Clicking, Saving to Cart).
+
+### Programatic Labelling
+
+Sometimes if we don't have enough hand labels, we can use some other methods to generate labels for our data
+
+1. Weak Supervision : Use simple heuristics to label data (Eg. If contains PRINCE, flag as scam ) but it's difficult to combine multiple heuristics together.
+   
+2. Semi Supervision : We take a small set of hand-labelled data, then fine-tune a model to generate some additional labels on unseen data. We then see if these labels make sense.
+   
+3. Transfer Learning : We use a base model trained for another task to perform a specific task it was not trained for (Eg. Language Model trained for Next Token prediction used for sentiment analysis )
+   
+4. Active Learning : We get a model or an ensemble of models to determine what are the more complicated examples using slight perturbations to the data. We use that to identify samples to label which will help our model to learn a decision boundary
+
+## Class Imbalance and Distributions
+
+
 
 
 
