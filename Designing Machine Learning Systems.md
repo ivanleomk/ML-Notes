@@ -146,6 +146,37 @@ We also have an added distinction of online vs offline processing. Online proces
 
 Data in databases is often processed in batch jobs and produces static features, whereas data in real-time transports is often processed using stream computation engines and produces dynamic features.
 
+# Training Data
+
+We need data to train our model so how can we obtain it? We can use a variety of different approaches - non probability vs probability based sampling.
+
+1. Non Probability : We sample based off convenience or some sort of expert opinion - this tends to be slightly biased 
+2. Probability Based Sampling : There are a few common methods that we use here
+	1. Simple Random Sampling : All samples in the population have n equally likely chance of being selected. This causes a potential risk of class imbalance
+	   
+	2. Stratified Sampling : We divide our population into groups and sample from each group separately. This causes some problems when we have samples that belong to multiple groups in a multi-class setup
+
+## Labelling
+
+When working with large amounts of data in a supervised manner, we often need to get labels for our data. There are a few methods to do so
+
+1. Hand Labels
+2. Natural Labels
+3. Programmatic Labelling
+
+### Hand Labels
+
+Hand Labels are expensive and slow to obtain. Often times this becomes further complicated if we have labels that require specific subject matter expertise. 
+
+This is a problem because slow labelling results in a slower iteration speed. When we have a chance in our data or model, we need to then wait again for our labels to be updated. Additionally, when working with human labellers, we risk the issue of label multiplicity - where there might be multiple conflicting labels per entry.
+
+A good way to avoid this is to have a sense of data lineage. This is because each batch of data labels will come with its own issues so it's important to be able to clearly identify where certain issues arise from.
+
+### Natural Labels
+
+Sometimes if we don't have hand labels, we might be able to use natural labels. These are labels that arise naturally because the model's predictions can be evaluated automatically by a system.
+
+An example is a Google Maps ride prediction system
 
 
 
