@@ -75,4 +75,16 @@ There are two real ways to do this
 1. Train a single model using a loss function that combines the two
 2. Train two separate models and tune the values of $\alpha$ and $\beta$ in production depending on how it's received
 
+# Data Engineering
 
+Three key things to consider
+
+- How is my data stored?
+- How does my data flow into my system?
+- How is my data processed?
+
+## Storing 
+
+There are two main distinctions here between the different types of data - structured and unstructured. The main difference here is who takes the responsibility for ensuring some form of structure.
+
+Unstructured data is normally stored in a [[Datalake]] in raw format where there isn't any assumed sch
