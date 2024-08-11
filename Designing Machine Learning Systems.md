@@ -104,6 +104,12 @@ Unstructured data is normally stored in a [[Datalake]] in raw format where there
 
 Structured data has a schema enforced on it - so any application that reads it knows exactly what sort of information it contains.
 
+### ETL
+
+ETL refers to Extract, Transform and Load. This is done if a company wants to enforce some form of structure at the point of ingestion. If not then it might do what's known as a ELT - Extract Load Transform where they perform the data transformation at time of ingestion. 
+
+This allows them to just have the raw data on hand but also comes with potentially increased storage costs. 
+
 ### Format of Data
 
 There are a few common ways to store data
@@ -111,5 +117,39 @@ There are a few common ways to store data
 1. JSON : This is a text file which stores data in the form of key-value pairs
 2. Parquet : This is a binary file ( consists of 1s and 0s ) 
 3. CSV: This is a text file where each column is separated by a comma while each row is demarcated by a new line
+
+Typically if we're doing fast writes, we want to opt for a row-major data storage where data is written by row. If we're doing fast reads on specific column values, then we might want to opt for column-major storage (Eg. Parquet) where we optimise for reading multiple sequential values in a specific column.
+
+We also need to consider the way we store the data - in terms of the data model when we have larger amounts of data. This comes down to using relational vs non-relational data models.
+
+Relational Data Models are used in our conventional databases (Eg. PostgreSQL) where we need to define a schema for our data up front and relations across different tables. Non-Relational data models are used in say Graph or NoSQL databases (like Mongo) which each have their own way of representing data.
+
+## Data Flows
+
+Another thing to consider about our data is that of how it flows. These tend to be grouped into Transactional vs Analytical Processing. 
+
+Transactional Processing means that we process transactions using an ACID-compliant database. This ensures that individual transactions are guaranteed to be processed in order, with immediate consistency in the system. However, this often results in a slower write/read speed to achieve these consistencies.
+
+Analytical Processing refers to a system that is custom built for executing fast queries on the data.
+
+Today, these aren't really distinct categories, most databases support both types. 
+
+## How is Data Processed
+
+How do we process data as it flows between different services? There are three ways.
+
+1. Data passing through a database : Process A writes to a database and then Process B reads from it
+2. Data passing through a service : Process A sends an API request to B with the data, B processes it
+3. Data passing through a real time transport : Process A writes to a kafa topic which B is subscribed to and then B reads from it.
+
+We also have an added distinction of online vs offline processing. Online processing is done on a per-request basis while offline processing is done on a batch basis to process large amounts of data at scale.
+
+Data in databases is often processed in batch jobs and produces static features, whereas data in real-time transports is often processed using stream computation engines and produces dynamic features.
+
+
+
+
+
+
 
 
