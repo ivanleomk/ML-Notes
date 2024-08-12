@@ -155,12 +155,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,8 +173,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46f2a2bcb1eec59d",
+  "active": "808edcb9c3778996",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-08-12 at 22.46.30@2x.png",
     "assets/CleanShot 2024-08-11 at 08.27.12@2x.png",
     "assets/CleanShot 2024-08-11 at 08.26.17@2x.png",
     "README.md",
@@ -201,7 +202,6 @@
     "A Practical Survey on Faster and Lighter Transformers.md",
     "assets/CleanShot 2024-06-13 at 18.17.47.png",
     "assets/CleanShot 2024-06-13 at 18.13.09.png",
-    "assets/CleanShot 2024-06-13 at 18.01.19.png",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
