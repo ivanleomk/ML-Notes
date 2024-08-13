@@ -307,3 +307,14 @@ The second thing is do scaling only with statistics calculated from the training
 
 The third thing is to check for data duplication. This happens when we have multiple instances of the same data appearing in both the train and test set. 
 
+### Combatting Data Leakage
+
+We can combat data leakage in a variety of different ways
+
+1. Keeping a record of data lineage so that we can track the sources of our data. This helps prevent potential cases of duplication.
+2. Look out for features that have unnaturally high prediction ability. This helps to identify features that might have introduced data leakage. Lastly, it's important to do some ablation studies to measure how important a feature or set of features is to our model.
+
+
+
+
+
