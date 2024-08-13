@@ -242,6 +242,7 @@ Data Augmentation is a way for us to increase the quantity of data that we have.
 
 - Label Preserving Transformations
 - Perturbation
+- Data Synthesis
 
 **Label Preserving Transformations**
 
@@ -251,3 +252,21 @@ These are transformations we can apply to our data that modifies it but preserve
 
 For images, this would involve adding some form of noise to the data itself. This helps generate [[Adversarial Attacks]] which help the neural network to become more robust to different forms of noise. 
 
+For Language Models, BERT is a classic example of perturbation. We randomly replace tokens in the original text 15% of the time and our language model needs to learn how to reproduce the original text.
+
+**Data Synthesis**
+
+We can use some easy templates to bootstrap our models for nlp tasks. For images, this might include using some form of composite image that includes inputs from different classes, with a predominant portion coming from a single class. This is known as [[Mixup]] and has been shown to improve the generalisation of models.
+
+# Feature Engineering
+
+Features are important to help improve the quality of model predictions. Traditional NLP required the use of domain-specific techniques which tended to be quite brittle. This has been reduced to some degree with deep learning.
+
+But for subject specific tasks, we might need subject-matter experts to come up with relevant features.
+
+## Handling Missing Data
+
+There are three kinds of missing data
+
+1. **Missing not at random** : Income is a classic example - some people don't want to disclose their income on forms. They also tend to be richer than people who do disclose their income on these forms. **The reason why this is empty is because people don't like their income**
+2. **Missing At Random** : Certain genders might not like disclosing their age 
