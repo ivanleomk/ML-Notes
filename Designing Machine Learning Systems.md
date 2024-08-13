@@ -269,4 +269,41 @@ But for subject specific tasks, we might need subject-matter experts to come up 
 There are three kinds of missing data
 
 1. **Missing not at random** : Income is a classic example - some people don't want to disclose their income on forms. They also tend to be richer than people who do disclose their income on these forms. **The reason why this is empty is because people don't like their income**
-2. **Missing At Random** : Certain genders might not like disclosing their age 
+2. **Missing At Random** : Some people might not like disclosing their age therefore they might opt to not fill in the value at random
+3. **Missing Completely at Random** : People sometimes forget to just fill in the values
+
+When encountering the missing values, we can either fill in the missing values or delete the values entirely. 
+
+**Deletion**
+
+If we've got a small number of rows. ( ~ 0.1% ) that has some missing values, it makes sense to delete them. Deleting an entire column of data if it has missing values is a last resort.
+
+It's important to realise that removing entire rows of data from your dataset might create a good amount of bias. 
+
+**Imputation**
+
+This refers to adding additional data to our dataset. But adding data is a tricky business because we want to make sure we don't introduce in additional signals that might be detrimental to model performance.
+
+If we're not using some default value, then we want to make sure that the value we impute into our dataset is going to be an impossible value (Eg. Age is -1).
+
+## Scaling
+
+Before we input our features into our model, it's important to scale them so that they're within the same range. There are two main methods we can do this with
+
+1. Normalisation : We use information from our training data to reduce the mean and standard deviation of our data to be 0 and 1. This however, assumes that our production data follows a similar distribution as our training data.
+2. Correcting Skews : It's often difficult to deal with long tail distributions. A way we can fix this is by using the `log` function to correct these long tailed distributions.
+
+## Feature Crossing
+
+We can also combine multiple features together to generate new features. Often times, this might be useful to help introduce new non-linear features that can be useful for models to learn from.
+
+## Data Leakage
+
+Data Leakage is a non obvious that your model can learn to rely on information that isn't available at inference time. There are a few good tips that we can use to ensure Data Leakage doesn't occur.
+
+The first thing is to split by time instead of randomly. This helps ensure that future information doesn't leak accidentally into our model's training dataset.
+
+The second thing is do scaling only with statistics calculated from the training dataset. This ensures that our model doesn't learn anything about the global context/validation set. We should do the same thing with imputing any values to replace missing data - it should come only from the test set.
+
+The third thing is to check for data duplication. This happens when we have multiple instances of the same data appearing in both the train and test set. 
+
