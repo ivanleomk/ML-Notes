@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How we built Text-to-SQL at Pinterest.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a540547be53b7ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Routing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How we built Text-to-SQL at Pinterest.md",
+                "file": "Routing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How we built Text-to-SQL at Pinterest.md",
+                "file": "Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How we built Text-to-SQL at Pinterest.md"
+                "file": "Routing.md"
               }
             }
           }
@@ -185,13 +197,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c27a80b68fbd1607",
+  "active": "a540547be53b7ab1",
   "lastOpenFiles": [
+    "README.md",
+    "Routing.md",
+    "How we built Text-to-SQL at Pinterest.md",
     "assets/Pasted image 20240819142039.png",
     "assets/Pasted image 20240819141917.png",
     "assets/Pasted image 20240819141819.png",
-    "README.md",
-    "How we built Text-to-SQL at Pinterest.md",
     "Designing Machine Learning Systems.md",
     "LLM Fine Tuning Maven.md",
     "assets/CleanShot 2024-08-12 at 22.46.30@2x.png",
@@ -213,7 +226,6 @@
     "assets/CleanShot 2024-06-17 at 09.47.36.png",
     "Retrieval Augmented Generation.md",
     "assets/CleanShot 2024-06-13 at 20.29.37.png",
-    "assets/CleanShot 2024-06-13 at 20.27.01.png",
     "A Practical Survey on Faster and Lighter Transformers.md",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
