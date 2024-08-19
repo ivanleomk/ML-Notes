@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Designing Machine Learning Systems.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c27a80b68fbd1607",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How we built Text-to-SQL at Pinterest.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designing Machine Learning Systems.md",
+                "file": "How we built Text-to-SQL at Pinterest.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designing Machine Learning Systems.md",
+                "file": "How we built Text-to-SQL at Pinterest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Designing Machine Learning Systems.md"
+                "file": "How we built Text-to-SQL at Pinterest.md"
               }
             }
           }
@@ -173,14 +185,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46f2a2bcb1eec59d",
+  "active": "c27a80b68fbd1607",
   "lastOpenFiles": [
+    "assets/Pasted image 20240819142039.png",
+    "assets/Pasted image 20240819141917.png",
+    "assets/Pasted image 20240819141819.png",
+    "README.md",
+    "How we built Text-to-SQL at Pinterest.md",
+    "Designing Machine Learning Systems.md",
     "LLM Fine Tuning Maven.md",
     "assets/CleanShot 2024-08-12 at 22.46.30@2x.png",
     "assets/CleanShot 2024-08-11 at 08.27.12@2x.png",
     "assets/CleanShot 2024-08-11 at 08.26.17@2x.png",
-    "README.md",
-    "Designing Machine Learning Systems.md",
     "Evals.md",
     "Kyle Corbitt - From Prompt To Fine Tuning.md",
     "Chroma DB Chunking Guide.md",
@@ -198,9 +214,7 @@
     "Retrieval Augmented Generation.md",
     "assets/CleanShot 2024-06-13 at 20.29.37.png",
     "assets/CleanShot 2024-06-13 at 20.27.01.png",
-    "assets/CleanShot 2024-06-13 at 20.13.56.png",
     "A Practical Survey on Faster and Lighter Transformers.md",
-    "assets/CleanShot 2024-06-13 at 18.17.47.png",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
@@ -208,7 +222,6 @@
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
     "Recommendation Systems.md",
-    "JAX.md",
-    "RNN.md"
+    "JAX.md"
   ]
 }
