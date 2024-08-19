@@ -14,4 +14,13 @@ But fundamentally, we're just generating more indexes and pointers that act as a
 
 > Routing is just a classification task
 
-Visual Language Models are trained on captioning data therefore it's difficult to extract an answer from a model sometimes. Multimodal embeddings might make cost sense but it's not always that the embedding will match 
+Visual Language Models are trained on captioning data therefore it's difficult to extract an answer from a model sometimes. Multimodal embeddings might make cost sense but it's not always that the embedding will match the question itself.
+
+Tips
+- Be specific and incorporate the questions that you used in the captioning data
+- Use chain of thought for captioning data
+- augment context by adding OCR 
+- Add structured extraction from images itself and some form of bounding boxes
+
+From Text-to-SQL, the idea is to bake in as much knowledge about the prompts itself that we can put inside.
+
