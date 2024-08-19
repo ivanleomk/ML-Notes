@@ -24,3 +24,6 @@ Tips
 
 From Text-to-SQL, the idea is to bake in as much knowledge about the prompts itself that we can put inside.
 
+![](assets/CleanShot%202024-08-19%20at%2015.51.33@2x.png)
+
+- Response Model, Prompt and the Data

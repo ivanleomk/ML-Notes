@@ -199,6 +199,7 @@
   },
   "active": "a540547be53b7ab1",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-08-19 at 15.51.33@2x.png",
     "README.md",
     "Routing.md",
     "How we built Text-to-SQL at Pinterest.md",
@@ -233,7 +234,6 @@
     "Pandas.md",
     "Building Recommendation Systems.md",
     "Elicit Machine Learning Guide.md",
-    "Recommendation Systems.md",
-    "JAX.md"
+    "Recommendation Systems.md"
   ]
 }
