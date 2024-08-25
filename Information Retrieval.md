@@ -15,4 +15,6 @@ Ranking Metrics
 - LGTM@10
 - Engagement , Revenue, add to chat
 
-We can use a LLM as a judge 
+We can use a LLM as a judge by 
+
+1. Having a nice 
