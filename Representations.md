@@ -17,3 +17,5 @@ query, passage, is_cited
 ```
 
 It's useful to think about this so that we can fine tune something like a COLBert or Cohere model
+
+Eg. If we have `query -> retrieved chunk`, we can just choose another random non-relevant chunk randomly from the database.
