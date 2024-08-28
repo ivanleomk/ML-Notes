@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57f44124b84f84fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Retrieval.md",
+                "file": "Representations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Retrieval.md",
+                "file": "Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Retrieval.md"
+                "file": "Representations.md"
               }
             }
           }
@@ -197,11 +209,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a540547be53b7ab1",
+  "active": "57f44124b84f84fc",
   "lastOpenFiles": [
+    "Information Retrieval.md",
+    "Representations.md",
     "assets/CleanShot 2024-08-25 at 19.03.14.png",
     "Routing.md",
-    "Information Retrieval.md",
     "assets/CleanShot 2024-08-19 at 15.51.33@2x.png",
     "README.md",
     "How we built Text-to-SQL at Pinterest.md",
@@ -226,7 +239,6 @@
     "Atomised Search Length Beyond User Models.md",
     "t-SNE.md",
     "Principal Component Analysis.md",
-    "assets/CleanShot 2024-06-17 at 09.47.36.png",
     "Retrieval Augmented Generation.md",
     "A Practical Survey on Faster and Lighter Transformers.md",
     "Ranking.md",
