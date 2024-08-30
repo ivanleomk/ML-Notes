@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representations.md",
+                "file": "Large Language Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representations.md",
+                "file": "Large Language Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representations.md",
+                "file": "Large Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representations.md"
+                "file": "Large Language Models.md"
               }
             }
           }
@@ -211,12 +211,13 @@
   },
   "active": "57f44124b84f84fc",
   "lastOpenFiles": [
-    "Information Retrieval.md",
+    "README.md",
+    "Large Language Models.md",
     "Representations.md",
+    "Information Retrieval.md",
     "assets/CleanShot 2024-08-25 at 19.03.14.png",
     "Routing.md",
     "assets/CleanShot 2024-08-19 at 15.51.33@2x.png",
-    "README.md",
     "How we built Text-to-SQL at Pinterest.md",
     "assets/Pasted image 20240819142039.png",
     "assets/Pasted image 20240819141917.png",
@@ -245,7 +246,6 @@
     "LoRA Learns Less and Forgets Less.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
     "Pandas.md",
-    "Building Recommendation Systems.md",
-    "Elicit Machine Learning Guide.md"
+    "Building Recommendation Systems.md"
   ]
 }
