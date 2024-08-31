@@ -73,3 +73,22 @@ Since we are doing next token prediction, our data gives us labels. But since ou
 
 ![](assets/CleanShot%202024-08-31%20at%2017.29.57.png)
 
+### Embeddings
+
+There are two forms of embeddings that we'd like our model to learn
+
+1. Absolute Embeddings : These are the embeddings for specific tokens that we care about
+2. Positional Embeddings : These are the embeddings that represent the information for a specific position. While these can be learnt or calculated in advance, ultimately, it's just used to help the model understand the concept of position.
+
+These size of these embeddings are going to depend on the specific model that we're looking at.
+![](assets/CleanShot%202024-08-31%20at%2017.48.10.png)
+
+# Attention
+
+Attention is an architectural choice. It was first implemented in [RNN](RNN.md) but ultimately found its biggest use in the [Transformer Architecture](Transformer%20Architecture) where it was used in an encoder-decoder framework.
+
+![](assets/CleanShot%202024-08-31%20at%2017.51.02.png)
+
+There are four main variants that we see in popular usage
+
+1. 
