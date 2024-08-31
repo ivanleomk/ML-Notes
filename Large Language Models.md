@@ -36,4 +36,27 @@ An early example of an encoder that worked was [[Word2Vec]] that trained neural 
 
 This makes it more efficient to utilise a LLM's own native embeddings if possible because they are task-specific as compared to a more general implementation like [Word2Vec](Word2Vec). 
 
-## Tokenization
+## Tokenisation
+
+When dealing with text, we need to tokenise it into known character ngrams that the model learns about during the training stage. This means that our model learns a mapping of `token->embedding` in it's initial embedding layer which helps it to make good predictions.
+
+![](assets/CleanShot%202024-08-31%20at%2017.03.45.png)
+
+It's important here to emphasise that our model **never sees raw text**. It just sees the token-id or the raw embeddings that the encoder produces. Therefore, it's important to have a large and diverse training set so that our model has a large vocabulary to work with so that our model is able to learn a useful representation.
+
+There are two ways that we've tried to deal with this problem of unknown tokens
+1. We can have a `[UNK]` token which is used to represent unknown tokens
+2. We can use an algorithm like `BPE` that recursively breaks down tokens into subwords and single characters, this means that for relative rare words or non-english characters, we might end up using a lot of tokens
+
+## Special Tokens
+
+In general, there are a set of special tokens that we can use to indicate to our model to treat it differently.
+
+1. `[BOS]` : This marks the start of a text chunk and signifies to the LLM where a piece of content begins.
+2. `[EOS]` : This token in positioned at the end of a text, and is especially useful when concatenating multiple unrelated texts.
+3. `[PAD]` : This token is useful when we're training LLMs with batch sizes larger than one
+
+Some other models might even include special tokens to be able to implement special cases like Function 
+
+
+
