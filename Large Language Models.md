@@ -13,6 +13,8 @@ GPT mainly uses Self-Attention while something like BERT uses Bidirectional Self
 
 ## Training 
 
+![](assets/CleanShot%202024-08-31%20at%2009.52.33@2x.png)
+
 LLMs are trained in a few stages. These can be described as 
 
 1. **Base Foundation Model training** : We train the large language model on a large corpus of unlabelled text. It's sole job is to complete the text chunk and predict the next token
@@ -27,6 +29,8 @@ Interestingly, this creates the concept of [[Emergent Behaviours]] which are cap
 # Training Datasets
 
 When working with multi-modal data, we need to convert the data into a vector representation. This is done through an [[encoder]] which helps us to convert the data into a representation that our LLM can work with.
+
+![](assets/CleanShot%202024-08-31%20at%2009.52.07@2x.png)
 
 An early example of an encoder that worked was [[Word2Vec]] that trained neural network architectures to generate embeddings by predicting a completion for a word given a set of target words. When we are training our LLMs, they learn to generate these representations during their training.
 

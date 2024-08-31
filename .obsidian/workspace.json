@@ -211,6 +211,8 @@
   },
   "active": "57f44124b84f84fc",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-08-31 at 09.52.33@2x.png",
+    "assets/CleanShot 2024-08-31 at 09.52.07@2x.png",
     "README.md",
     "Large Language Models.md",
     "Representations.md",
@@ -236,7 +238,6 @@
     "assets/CleanShot 2024-06-17 at 13.03.57.png",
     "Papers.md",
     "Atomised Search Length.md",
-    "assets/CleanShot 2024-06-17 at 12.26.46.png",
     "Atomised Search Length Beyond User Models.md",
     "t-SNE.md",
     "Principal Component Analysis.md",
@@ -245,7 +246,6 @@
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
     "ORPO Monolithic Preference Optimization without Reference Model.md",
-    "Pandas.md",
-    "Building Recommendation Systems.md"
+    "Pandas.md"
   ]
 }
