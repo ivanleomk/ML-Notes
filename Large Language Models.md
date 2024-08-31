@@ -48,7 +48,7 @@ There are two ways that we've tried to deal with this problem of unknown tokens
 1. We can have a `[UNK]` token which is used to represent unknown tokens
 2. We can use an algorithm like `BPE` that recursively breaks down tokens into subwords and single characters, this means that for relative rare words or non-english characters, we might end up using a lot of tokens
 
-## Special Tokens
+### Special Tokens
 
 In general, there are a set of special tokens that we can use to indicate to our model to treat it differently.
 
@@ -56,7 +56,20 @@ In general, there are a set of special tokens that we can use to indicate to our
 2. `[EOS]` : This token in positioned at the end of a text, and is especially useful when concatenating multiple unrelated texts.
 3. `[PAD]` : This token is useful when we're training LLMs with batch sizes larger than one
 
-Some other models might even include special tokens to be able to implement special cases like Function 
+Some other models might even include special tokens to be able to implement special cases like Function Calling. 
+
+### Byte Pair Encoding
+
+Popular LLMs like GPT-2, GPT-3 were trained using an algorithm called [Byte Pair Encoding](Byte%20Pair%20Encoding.md). This is implemented most popularly in a library called `tiktoken`.
+
+![](assets/CleanShot%202024-08-31%20at%2017.17.38.png)
+
+On a high level, BPE works by building a vocabulary through iteratively merging frequent characters into subwords and frequent subwords into words. This helps it to build a rich vocabulary that preserves the token space and for common words or subwords to be represented more efficiently.
 
 
+## Data Sampling
+
+Since we are doing next token prediction, our data gives us labels. But since our models need to operate on a fixed number of tokens, how can we construct the training dataset?
+
+![](assets/CleanShot%202024-08-31%20at%2017.29.57.png)
 

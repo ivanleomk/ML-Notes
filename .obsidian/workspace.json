@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35ba1f95cf5c367b",
+        "id": "7e2a9eb5bb81cbf6",
         "type": "tabs",
         "children": [
           {
-            "id": "d5c1de9333f4aae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM Fine Tuning Maven.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ed7ef2babbf0c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyle Corbitt - From Prompt To Fine Tuning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46f2a2bcb1eec59d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c27a80b68fbd1607",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a540547be53b7ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Retrieval.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57f44124b84f84fc",
+            "id": "6e99b77f44b7d753",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,15 +148,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57f44124b84f84fc",
+  "active": "6e99b77f44b7d753",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-08-31 at 17.29.57.png",
+    "assets/CleanShot 2024-08-31 at 17.17.38.png",
+    "Evals.md",
+    "LLM Fine Tuning Maven.md",
+    "Kyle Corbitt - From Prompt To Fine Tuning.md",
+    "README.md",
+    "Information Retrieval.md",
+    "Large Language Models.md",
+    "Byte Pair Encoding.md",
     "assets/CleanShot 2024-08-31 at 17.03.45.png",
     "assets/CleanShot 2024-08-31 at 09.52.33@2x.png",
     "assets/CleanShot 2024-08-31 at 09.52.07@2x.png",
-    "README.md",
-    "Large Language Models.md",
     "Representations.md",
-    "Information Retrieval.md",
     "assets/CleanShot 2024-08-25 at 19.03.14.png",
     "Routing.md",
     "assets/CleanShot 2024-08-19 at 15.51.33@2x.png",
@@ -226,12 +171,7 @@
     "assets/Pasted image 20240819141917.png",
     "assets/Pasted image 20240819141819.png",
     "Designing Machine Learning Systems.md",
-    "LLM Fine Tuning Maven.md",
     "assets/CleanShot 2024-08-12 at 22.46.30@2x.png",
-    "assets/CleanShot 2024-08-11 at 08.27.12@2x.png",
-    "assets/CleanShot 2024-08-11 at 08.26.17@2x.png",
-    "Evals.md",
-    "Kyle Corbitt - From Prompt To Fine Tuning.md",
     "Chroma DB Chunking Guide.md",
     "Function Calling and Data Extraction in LLMs.md",
     "asd.md",
@@ -245,7 +185,6 @@
     "A Practical Survey on Faster and Lighter Transformers.md",
     "Ranking.md",
     "LoRA Learns Less and Forgets Less.md",
-    "ORPO Monolithic Preference Optimization without Reference Model.md",
-    "Pandas.md"
+    "ORPO Monolithic Preference Optimization without Reference Model.md"
   ]
 }
