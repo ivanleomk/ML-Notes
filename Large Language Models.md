@@ -89,6 +89,29 @@ Attention is an architectural choice. It was first implemented in [RNN](RNN.md) 
 
 ![](assets/CleanShot%202024-08-31%20at%2017.51.02.png)
 
-There are four main variants that we see in popular usage
+There are three main variants that we see in popular usage
 
-1. 
+1. **Self-Attention**
+2. **Causal Attention**
+3. **Multi-Head Attention**
+
+Attention in transformers was created to solve the complexity of machine translation tasks. 
+
+This created the first few [[Encoder Decoder]] models which would first encode a source sentence into a vector representation of hidden states before passing it to a decoder which would then generate a predicted translation.
+![](assets/CleanShot%202024-09-01%20at%2010.12.46@2x.png)
+## Self Attention
+
+With Self Attention, each position in the input sequence attends to all positions in the same sequence. This allows it to weight the importance of information for each individual position w.r.t itself.
+
+![ | 250](assets/CleanShot%202024-09-01%20at%2010.20.19@2x.png)
+
+This is done by 
+
+1. First we compute a hidden state for each individual token
+2. Then we take the dot product between each hidden state to calculate the dot product. This means that we perform `O(n^2)` operations
+3. Lastly, for each row, we normalise it using a softmax operation so that the dot products sum to 1
+4. We then create a new weighted sum based off the weightage of individual dot product values
+
+### Self Attention in the Transformer
+
+In the transformer, they introduce the concept of `key`, `query` and `value` matrices that we multiply our hidden states by. These are useful in helping
