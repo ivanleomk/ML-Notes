@@ -120,6 +120,32 @@ Once our model has computed the new matrices `Q,K,V` we can then take `Q@K` to g
 
 Once we've gotten the normalised attention weights that sum to 1, we can then compute a new representation for each token by summing up the respective representations of the `V` matrix that it corresponds to.
 
+## Multi-Head Attention
 
+By having multiple heads working in parallel, we can train our model to have different heads that learn different aspects of the data. This enables it to attend to information from different representation subspaces at different positions.
 
+## Causal Attention
+
+Causal Attention is a specialised form of attention that only allows the model to only consider previous and current inputs. 
+
+![](assets/CleanShot%202024-09-01%20at%2011.02.05@2x.png)
+
+This means that we mask out the attention weights above the diagonal before computing the softmax. This prevents the model from looking ahead and cheating. This can be done with a simple tril mask
+
+```python
+context_length = attn_scores.shape[0]
+mask_simple = torch.tril(torch.ones(context_length, context_length))
+print(mask_simple)
+```
+
+This creates a mask as seen below.
+
+```bash
+tensor([[1., 0., 0., 0., 0., 0.],
+        [1., 1., 0., 0., 0., 0.],
+        [1., 1., 1., 0., 0., 0.],
+        [1., 1., 1., 1., 0., 0.],
+        [1., 1., 1., 1., 1., 0.],
+        [1., 1., 1., 1., 1., 1.]])
+```
 
