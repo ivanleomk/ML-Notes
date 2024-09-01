@@ -149,3 +149,12 @@ tensor([[1., 0., 0., 0., 0., 0.],
         [1., 1., 1., 1., 1., 1.]])
 ```
 
+We can then apply a simple element wise multiplication so that we only preserve the attention scores from the positions that have a `1`.
+
+## Dropout in Attention
+
+Sometimes, we might also implement dropout in the attention calculation by randomly masking out specific attention scores before we compute the softmax.
+
+![](assets/CleanShot%202024-09-01%20at%2022.47.56@2x.png)
+This helps our model to not be dependent on a specific set of hidden layer units. This helps our model to generalise better to its training dataset.
+
