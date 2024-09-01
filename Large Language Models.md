@@ -181,3 +181,63 @@ class MultiHeadAttentionWrapper(nn.Module):
     def forward(self, x):
         return torch.cat([head(x) for head in self.heads], dim=-1)
 ```
+
+# GPT Models
+
+Now that we've walked through [Attention](#Attention) and the [Tokenisation](#Tokenisation) aspect of these large language models. Let's work on learning more about their remaining aspects
+
+1. Layer Normalisation
+2. GeLU
+3. Skip Connections
+## Layer Normalisation
+
+When our inputs pass through a single linear layer, their mean and variance increase. This can be difficult when we have a large number of linear layers stacked together, causing the individual logits to increase rapidly in their magnitude.
+
+This is done by normalising the mean to 0 and variance to 1 of each individual input value.
+
+```python
+out = linear(x)
+mean = out.mean(dim=-1, keepdim=True)
+var = out.var(dim=-1, keepdim=True)
+
+out_norm = (out - mean) / torch.sqrt(var)
+```
+
+In a LLM, we typically implement this by using the following calculation where the final normalised value is scaled up by a `scale` parameter before being adjusted by a `shift` parameter.
+
+This is done to allow the LLM to learn these trainable parameters to better make predictions.
+
+```python
+class LayerNorm(nn.Module):
+    def __init__(self, emb_dim):
+        super().__init__()
+        self.eps = 1e-5
+        self.scale = nn.Parameter(torch.ones(emb_dim))
+        self.shift = nn.Parameter(torch.zeros(emb_dim))
+
+    def forward(self, x):
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, keepdim=True, unbiased=False)
+        norm_x = (x - mean) / torch.sqrt(var + self.eps)
+        return self.scale * norm_x + self.shift
+```
+
+## GeLU
+
+Gaussian Error Linear Units are a type of [[Activation Function]]. We can compute the value of a GeLU activation function using the formula $\text{GeLU} = \phi(x)$ where $\phi$ represents the cumulative distribution function of the standard gaussian distribution.
+
+In practice, we approximate it with the formula 
+
+$$
+$\text{GELU}(x) \approx 0.5 \cdot x \cdot \left(1 + \tanh\left[\sqrt{\frac{2}{\pi}} \cdot \left(x + 0.044715 \cdot x^3\right)\right]\right)
+$$
+
+![](assets/CleanShot%202024-09-01%20at%2023.29.06@2x.png)
+We can see here that GeLU gives a little more wiggle room as compared to the convention [[ReLU]] function that we're used to. 
+
+## Skip Connections
+
+Skip Connections were originally proposed to help overcome the issue of vanishing gradients. This is done by adding the results of an earlier input to the final result of a layer.
+
+![|350](assets/Pasted%20image%2020240901233225.png)
+
