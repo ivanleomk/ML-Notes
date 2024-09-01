@@ -114,4 +114,12 @@ This is done by
 
 ### Self Attention in the Transformer
 
-In the transformer, they introduce the concept of `key`, `query` and `value` matrices that we multiply our hidden states by. These are useful in helping
+In the transformer, they introduce the concept of `key`, `query` and `value` matrices that we multiply our hidden states by. These are useful in helping to cast our original hidden states into a better representation that we can fine-tune during training.
+
+Once our model has computed the new matrices `Q,K,V` we can then take `Q@K` to get a `nxn` matrix which we then scale using $\sqrt{d_k}$ before applying a softmax. This is known as [[Scaled Dot Attention Product]] which was first introduced in the original transformer paper.
+
+Once we've gotten the normalised attention weights that sum to 1, we can then compute a new representation for each token by summing up the respective representations of the `V` matrix that it corresponds to.
+
+
+
+
