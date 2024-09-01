@@ -158,3 +158,26 @@ Sometimes, we might also implement dropout in the attention calculation by rando
 ![](assets/CleanShot%202024-09-01%20at%2022.47.56@2x.png)
 This helps our model to not be dependent on a specific set of hidden layer units. This helps our model to generalise better to its training dataset.
 
+## Multi-Head Attention
+
+In practice, when we use attention in production, we use something called multi-headed attention.  
+
+If we have an attention layer that has `k` heads which takes in a batch of `n` inputs that have a dimensionality of `d`, then we are going to
+
+1. Multiply the same input by each head. Each head has a dimensionality of `d x (d//k)`. This will cast the input down to a smaller dimensionality.
+2. This means that we generate `k` unique combinations of our original `QKV` matrices
+3. We then perform standard attention on each of these combinations, generating a final list of `k` vectors for each input that has dimensionality of `d//k` each.
+4. We concatenate each of the `k` vectors for each input, thus giving us a final result that has dimensionality of `n x d` as we originally passed in
+
+```python
+class MultiHeadAttentionWrapper(nn.Module):
+    def __init__(self, d_in, d_out, context_length,
+                 dropout, num_heads, qkv_bias=False):
+        super().__init__()
+        self.heads = nn.ModuleList(
+            [CausalAttention(d_in, d_out, context_length, dropout, qkv_bias)
+             for _ in range(num_heads)]
+        )
+    def forward(self, x):
+        return torch.cat([head(x) for head in self.heads], dim=-1)
+```
