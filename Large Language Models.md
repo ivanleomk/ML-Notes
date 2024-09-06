@@ -241,3 +241,17 @@ Skip Connections were originally proposed to help overcome the issue of vanishin
 
 ![|350](assets/Pasted%20image%2020240901233225.png)
 
+This helps the gradients to flow better and ultimately makes it easier for us to train our model since our weights update more easily. 
+
+## Model Size
+
+We can estimate model size using the following code snippet
+
+```python
+total_size_bytes = total_params * 4
+
+# Convert to megabytes
+total_size_mb = total_size_bytes / (1024 * 1024)
+
+print(f"Total size of the model: {total_size_mb:.2f} MB")
+```
