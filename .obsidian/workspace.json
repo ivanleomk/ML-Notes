@@ -11,8 +11,12 @@
             "id": "e0c00241c05e9e1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Large Language Models - Evals in the Wild.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "28b7713da57d93ca",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Large Language Models - Evals in the Wild.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Large Language Models - Evals in the Wild.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Large Language Models - Evals in the Wild.md"
+              }
             }
           }
         ],
@@ -142,6 +149,7 @@
   },
   "active": "e0c00241c05e9e1d",
   "lastOpenFiles": [
+    "assets/CleanShot 2024-09-08 at 16.13.36@2x.png",
     "Large Language Models.md",
     "assets/Pasted image 20240901233225.png",
     "assets/CleanShot 2024-09-01 at 23.29.06@2x.png",
@@ -153,7 +161,7 @@
     "assets/CleanShot 2024-08-31 at 17.51.02.png",
     "assets/CleanShot 2024-08-31 at 17.48.10.png",
     "assets/CleanShot 2024-08-31 at 17.29.57.png",
-    "Evals.md",
+    "Large Language Models - Evals in the Wild.md",
     "LLM Fine Tuning Maven.md",
     "Kyle Corbitt - From Prompt To Fine Tuning.md",
     "README.md",
