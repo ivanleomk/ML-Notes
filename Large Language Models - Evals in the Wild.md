@@ -66,3 +66,29 @@ class User(BaseModel):
 		return v
 ```
 
+This can be done using a simple unit testing framework that will include the inputs to reproduce the test. The goal here is to have **simple, reliable heuristics** to check if an output satisfies each property.
+
+If we're using something like [LLM as a Judge](LLM%20as%20a%20Judge) then we need to consider more abstract conditions
+
+1. **Grounding** : How faithful is the answer to the source documents?
+2. **Relevance** : How relevant is the answer to the user's question
+3. **Recall** : How many relevant context documents did the system retrieve?
+4. **Extraction Accuracy** : How accurately does the system identify and extract the target information?
+
+# Writing Evaluations
+
+Often times, when working to implement evaluations, you'll find that there might be a conflict between the different metrics that you're caring about. 
+
+A classic example is that of Harmfulness and Helpfulness. A model can be violate harmfulness in its attempt to be helpful if you ask it for advice to perform tasks such as making a bomb.
+
+It's important here to start working on decomposing the high-level quality dimensions into questions that are specific, actionable and simple. This allows you to pinpoint exactly where the system excels or falls short.
+
+We have the following four types of evaluations
+
+1. **Binary** : Yes or No questions
+2. **Comparison** : Comparing two different inputs side by side to help identify incremental improvements
+3. **Categorical** : Categorise the actual input into a set number of possible categories (Eg. Relevant, Irrelevant, Highly Relevant )
+4. **Numerical** : Grade this from a 1 - 5 scale
+
+We can also use Reference Based questions
+
