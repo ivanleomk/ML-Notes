@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7e2a9eb5bb81cbf6",
+        "id": "5655af5572eea654",
         "type": "tabs",
         "children": [
           {
-            "id": "6e99b77f44b7d753",
+            "id": "e0c00241c05e9e1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Large Language Models.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Large Language Models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Large Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Large Language Models.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,8 +140,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e99b77f44b7d753",
+  "active": "e0c00241c05e9e1d",
   "lastOpenFiles": [
+    "Large Language Models.md",
     "assets/Pasted image 20240901233225.png",
     "assets/CleanShot 2024-09-01 at 23.29.06@2x.png",
     "assets/CleanShot 2024-09-01 at 22.47.56@2x.png",
@@ -160,13 +153,11 @@
     "assets/CleanShot 2024-08-31 at 17.51.02.png",
     "assets/CleanShot 2024-08-31 at 17.48.10.png",
     "assets/CleanShot 2024-08-31 at 17.29.57.png",
-    "assets/CleanShot 2024-08-31 at 17.17.38.png",
     "Evals.md",
     "LLM Fine Tuning Maven.md",
     "Kyle Corbitt - From Prompt To Fine Tuning.md",
     "README.md",
     "Information Retrieval.md",
-    "Large Language Models.md",
     "Byte Pair Encoding.md",
     "Representations.md",
     "Routing.md",
