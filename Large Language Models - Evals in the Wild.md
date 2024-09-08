@@ -90,5 +90,49 @@ We have the following four types of evaluations
 3. **Categorical** : Categorise the actual input into a set number of possible categories (Eg. Relevant, Irrelevant, Highly Relevant )
 4. **Numerical** : Grade this from a 1 - 5 scale
 
-We can also use Reference Based questions
+We can also use Reference Based questions which are used to evaluate generated text. We ask the judge to provide their own version of the ideal, correct or best response and from there we try to score how well the generated text lines up with the ideal response.
+
+Metrics that line up well here are [[ROUGE]] and [[BLEU]] that measure the similarity of two input pairs. These metrics have typically been used in machine translation work.
+
+![](assets/CleanShot%202024-09-08%20at%2016.49.23@2x.png)
+
+# Running Evaluations
+
+When running evaluations on dataset we have the option of either using Human judges or [LLM as a Judge](LLM%20as%20a%20Judge). When doing so, here are some considerations to take into account.
+
+1. **Humans** : It's a well known fact that Human Annotators take time to train. Therefore we need to collect 3-5 different human judgements on the same eval item. At the same time, we also need to train these labellers to be able to align their judgements.
+   
+2. [LLM as a Judge](LLM%20as%20a%20Judge) : This involves generating a clear and precise prompt that we specify all of the different criteria and context that we care about. Once we've done so, we might want to then get a human expert to sit down and label the different samples. 
+   
+   Once we've done so, we can then measure the alignment of our LLM and the expert labels using a [[Confusion Matrix]] or by using [[Krippendorfs Alpha]] to compute a quantitative metric of alignment. 
+
+If we're measuring the quality of ground truth labels in a binary setting, we can use precision and recall as alternative metrics.
+
+![](assets/CleanShot%202024-09-08%20at%2016.57.01@2x.png)
+
+# Making Sense of Evaluations
+
+Once we've obtained the evaluation data, it's important for us to be able to understand what to do next. A great way to do so is to slice the eval scores in different ways.
+
+This means understanding
+
+1. **Near Misses vs Major Failures** : Separating slight inaccuracies vs completely wrong answers
+2. **High and Low Scorers** : Grouping results into high, medium and low scoring items
+3. **Metric Combinations** : Are there instances where the LLM Judge scores high on one metric but low on another?
+
+At this point, how do we improve our system?
+
+1. Looking for patterns : Let's see what commonalities exist between the different failed cases?
+2. Identify Root Causes 
+3. Planning your fixes : Identifying the specific issues - what are the highest priority solutions that we can start with?
+
+When we're looking at RAG systems, we'd also want to consider the concept of missing inventory vs missing capability
+
+1. **Missing Inventory**: This happens when the system has the capability to answer a question but lacks the necessary information and context to do a task well 
+   
+   (Eg. We provide information on legal cases but don't have any information on Singaporean cases )
+   
+2. **Missing Capability** : This is when the information exists but we don't have a way to fetch the information to respond to the user query.
+   
+   Eg. User wants to know what were the changes in the statues for Corporate Tax for Foreign Companies in Singapore in 2023 but we don't have a way of identifying when specific statues were introduced
 
